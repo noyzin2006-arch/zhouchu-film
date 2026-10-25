@@ -14,3 +14,10 @@ id_rsa*
 id_ed25519*
 *.db
 *.sqlite3
+
+# work/ 是中间产物目录（语音片段、中间 MP4、模型缓存、字幕审校、venv），
+# 一律不入库；需要留证的产物已归档到 reports/ 与 deliver/。
+work/
+
+# 大体积中间帧：联系表本身保留，逐帧序列不入库
+reports/frames/

@@ -1,0 +1,29 @@
+
+hyperframes doctor
+
+  ✗ Version          0.8.104 → 0.8.194 available
+                     Run: hyperframes upgrade
+  ✓ Node.js          v26.0.0 (darwin arm64)
+  ✓ CPU              18 cores · Apple M5 Max @ 2400MHz
+  ✓ Memory           64.0 GB total · 39.3 GB available
+  ✓ Disk             153.6 GB free
+  ✓ Frames cache     /var/folders/bh/0fb05n7j3s1_n2sfnn04qvw40000gn/T/hyperframes-extract-cache-501 · 153.6 GB free at /var/folders/bh/0fb05n7j3s1_n2sfnn04qvw40000gn/T · default
+  ✓ Archive extractor unzip
+  ✓ Settings lock    Not locked
+  ✓ Environment      non-TTY
+  ✓ whisper-cpp      /opt/homebrew/bin/whisper-cli
+  ✗ TTS (Kokoro)     Not installed (optional — local voice fallback)
+                     pip install kokoro-onnx soundfile
+  ✗ BGM (MusicGen)   Not installed (optional — local music fallback)
+                     pip install transformers torch soundfile numpy
+  ✓ onnxruntime-node Not installed (installs on first use)
+  ✓ @google/genai    Not installed (installs on first use)
+  ✓ FFmpeg           ffmpeg 8.1.1 at /opt/homebrew/bin/ffmpeg
+  ✓ FFprobe          ffprobe 8.1.1 at /opt/homebrew/bin/ffprobe
+  ✓ Chrome           cache: /Users/sheng/.cache/puppeteer/chrome-headless-shell/mac_arm-149.0.7827.22/chrome-headless-shell-mac-arm64/chrome-headless-shell
+  ✓ Docker           Docker version 29.5.1, build 2518b52d94
+  ✗ Docker running   Not running
+                     Start Docker Desktop or run: sudo systemctl start docker
+
+  ◇  Some checks failed — see hints above
+

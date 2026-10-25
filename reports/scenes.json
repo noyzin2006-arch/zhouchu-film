@@ -1,0 +1,1619 @@
+{
+  "duration_seconds": 30.0,
+  "fps": 30,
+  "total_frames": 900,
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "三害",
+      "dom_id": "scene-S01",
+      "image_ids": [
+        "S01"
+      ],
+      "start_frame": 0,
+      "end_frame_exclusive": 30,
+      "clip_start_frame": 0,
+      "clip_end_frame_exclusive": 33,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.06,
+        "scale_to": 1.09,
+        "x_from": 0,
+        "x_to": 14,
+        "y_from": 0,
+        "y_to": 0
+      },
+      "effect_ids": [
+        "ink-reveal",
+        "hook-title"
+      ],
+      "annotation": null,
+      "annotation_fade_sec": 0.36,
+      "overlay_text": "三害，最凶的是人。",
+      "inserts": [],
+      "track_index": 0
+    },
+    {
+      "id": "S02",
+      "title": "邅迹虎",
+      "dom_id": "scene-S02",
+      "image_ids": [
+        "S02"
+      ],
+      "start_frame": 30,
+      "end_frame_exclusive": 69,
+      "clip_start_frame": 27,
+      "clip_end_frame_exclusive": 72,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.08,
+        "scale_to": 1.12,
+        "x_from": 0,
+        "x_to": 0,
+        "y_from": 0,
+        "y_to": -16
+      },
+      "effect_ids": [
+        "mist-drift",
+        "annotation-seal"
+      ],
+      "annotation": {
+        "text": "邅迹虎｜跛脚虎",
+        "min_visible_ms": 1200,
+        "fade_in_ms": 360
+      },
+      "annotation_fade_sec": 0.36,
+      "overlay_text": null,
+      "inserts": [],
+      "track_index": 1
+    },
+    {
+      "id": "S03",
+      "title": "水中蛟",
+      "dom_id": "scene-S03",
+      "image_ids": [
+        "S03"
+      ],
+      "start_frame": 69,
+      "end_frame_exclusive": 97,
+      "clip_start_frame": 66,
+      "clip_end_frame_exclusive": 100,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.07,
+        "scale_to": 1.11,
+        "x_from": 20,
+        "x_to": -20,
+        "y_from": 0,
+        "y_to": 0
+      },
+      "effect_ids": [
+        "ink-wave"
+      ],
+      "annotation": null,
+      "annotation_fade_sec": 0.36,
+      "overlay_text": null,
+      "inserts": [],
+      "track_index": 2
+    },
+    {
+      "id": "S04",
+      "title": "周处",
+      "dom_id": "scene-S04",
+      "image_ids": [
+        "S04"
+      ],
+      "start_frame": 97,
+      "end_frame_exclusive": 119,
+      "clip_start_frame": 94,
+      "clip_end_frame_exclusive": 122,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.11,
+        "scale_to": 1.07,
+        "x_from": 0,
+        "x_to": 0,
+        "y_from": 0,
+        "y_to": 0
+      },
+      "effect_ids": [
+        "foreground-parallax",
+        "chapter-seal"
+      ],
+      "annotation": {
+        "text": "周处",
+        "seal": true,
+        "min_visible_ms": 1200,
+        "fade_in_ms": 360
+      },
+      "annotation_fade_sec": 0.36,
+      "overlay_text": null,
+      "inserts": [],
+      "track_index": 3
+    },
+    {
+      "id": "S05",
+      "title": "借刀",
+      "dom_id": "scene-S05",
+      "image_ids": [
+        "S05"
+      ],
+      "start_frame": 119,
+      "end_frame_exclusive": 226,
+      "clip_start_frame": 116,
+      "clip_end_frame_exclusive": 229,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.06,
+        "scale_to": 1.1,
+        "x_from": -18,
+        "x_to": 12,
+        "y_from": 0,
+        "y_to": 0
+      },
+      "effect_ids": [
+        "focus-mask",
+        "foreground-parallax"
+      ],
+      "annotation": null,
+      "annotation_fade_sec": 0.36,
+      "overlay_text": null,
+      "inserts": [],
+      "track_index": 4
+    },
+    {
+      "id": "S06",
+      "title": "刺虎",
+      "dom_id": "scene-S06",
+      "image_ids": [
+        "S06"
+      ],
+      "start_frame": 226,
+      "end_frame_exclusive": 248,
+      "clip_start_frame": 223,
+      "clip_end_frame_exclusive": 251,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.1,
+        "scale_to": 1.13,
+        "x_from": 0,
+        "x_to": 0,
+        "y_from": 14,
+        "y_to": -10
+      },
+      "effect_ids": [
+        "cinnabar-slash",
+        "ink-splash"
+      ],
+      "annotation": null,
+      "annotation_fade_sec": 0.36,
+      "overlay_text": null,
+      "inserts": [],
+      "track_index": 5
+    },
+    {
+      "id": "S07",
+      "title": "追蛟",
+      "dom_id": "scene-S07",
+      "image_ids": [
+        "S07",
+        "S07B"
+      ],
+      "start_frame": 248,
+      "end_frame_exclusive": 281,
+      "clip_start_frame": 245,
+      "clip_end_frame_exclusive": 284,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.07,
+        "scale_to": 1.12,
+        "x_from": 16,
+        "x_to": -14,
+        "y_from": 0,
+        "y_to": 0
+      },
+      "effect_ids": [
+        "rain-lines",
+        "water-parallax",
+        "insert-cut"
+      ],
+      "annotation": null,
+      "annotation_fade_sec": 0.36,
+      "overlay_text": null,
+      "inserts": [
+        {
+          "image_id": "S07B",
+          "dom_id": "insert-S07B",
+          "start_frame": 279,
+          "end_frame_exclusive": 281
+        }
+      ],
+      "track_index": 6
+    },
+    {
+      "id": "S08",
+      "title": "三日三夜",
+      "dom_id": "scene-S08",
+      "image_ids": [
+        "S08"
+      ],
+      "start_frame": 281,
+      "end_frame_exclusive": 320,
+      "clip_start_frame": 278,
+      "clip_end_frame_exclusive": 323,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.06,
+        "scale_to": 1.1,
+        "x_from": 0,
+        "x_to": 0,
+        "y_from": 0,
+        "y_to": 0
+      },
+      "effect_ids": [
+        "ink-transition",
+        "big-kanji"
+      ],
+      "annotation": {
+        "text": "三日三夜",
+        "big_kanji": true,
+        "min_visible_ms": 1200,
+        "fade_in_ms": 360
+      },
+      "annotation_fade_sec": 0.36,
+      "overlay_text": null,
+      "inserts": [],
+      "track_index": 7
+    },
+    {
+      "id": "S09",
+      "title": "相庆",
+      "dom_id": "scene-S09",
+      "image_ids": [
+        "S09"
+      ],
+      "start_frame": 320,
+      "end_frame_exclusive": 393,
+      "clip_start_frame": 317,
+      "clip_end_frame_exclusive": 396,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.1,
+        "scale_to": 1.06,
+        "x_from": 0,
+        "x_to": 0,
+        "y_from": 0,
+        "y_to": 0
+      },
+      "effect_ids": [
+        "music-cut",
+        "foreground-parallax"
+      ],
+      "annotation": null,
+      "annotation_fade_sec": 0.36,
+      "overlay_text": null,
+      "inserts": [],
+      "track_index": 8
+    },
+    {
+      "id": "S10",
+      "title": "知耻",
+      "dom_id": "scene-S10",
+      "image_ids": [
+        "S10"
+      ],
+      "start_frame": 393,
+      "end_frame_exclusive": 513,
+      "clip_start_frame": 390,
+      "clip_end_frame_exclusive": 516,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.06,
+        "scale_to": 1.08,
+        "x_from": 12,
+        "x_to": -8,
+        "y_from": 0,
+        "y_to": 0
+      },
+      "effect_ids": [
+        "desaturate",
+        "emotional-hold"
+      ],
+      "annotation": null,
+      "annotation_fade_sec": 0.36,
+      "overlay_text": null,
+      "inserts": [],
+      "track_index": 9
+    },
+    {
+      "id": "S11",
+      "title": "寻陆云",
+      "dom_id": "scene-S11",
+      "image_ids": [
+        "S11",
+        "S11B"
+      ],
+      "start_frame": 513,
+      "end_frame_exclusive": 708,
+      "clip_start_frame": 510,
+      "clip_end_frame_exclusive": 711,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.07,
+        "scale_to": 1.09,
+        "x_from": 0,
+        "x_to": 0,
+        "y_from": 10,
+        "y_to": -10
+      },
+      "effect_ids": [
+        "cross-dissolve",
+        "annotation-seal",
+        "foreground-parallax"
+      ],
+      "annotation": {
+        "text": "清河｜陆云",
+        "min_visible_ms": 1200,
+        "fade_in_ms": 360
+      },
+      "annotation_fade_sec": 0.36,
+      "overlay_text": null,
+      "inserts": [
+        {
+          "image_id": "S11B",
+          "dom_id": "insert-S11B",
+          "start_frame": 620,
+          "end_frame_exclusive": 674
+        }
+      ],
+      "track_index": 10
+    },
+    {
+      "id": "S12",
+      "title": "改励",
+      "dom_id": "scene-S12",
+      "image_ids": [
+        "S12"
+      ],
+      "start_frame": 708,
+      "end_frame_exclusive": 900,
+      "clip_start_frame": 705,
+      "clip_end_frame_exclusive": 900,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.06,
+        "scale_to": 1.1,
+        "x_from": 0,
+        "x_to": 18,
+        "y_from": 0,
+        "y_to": -12
+      },
+      "effect_ids": [
+        "ink-fade",
+        "chapter-seal",
+        "final-line"
+      ],
+      "annotation": {
+        "text": "自新",
+        "seal": true,
+        "min_visible_ms": 1200,
+        "fade_in_ms": 360
+      },
+      "annotation_fade_sec": 0.36,
+      "overlay_text": "终为忠臣孝子",
+      "inserts": [],
+      "track_index": 11
+    }
+  ],
+  "shots": [
+    {
+      "dom_id": "shot-S01-1",
+      "scene_id": "S01",
+      "image_id": "S01",
+      "start_frame": 0,
+      "end_frame_exclusive": 30,
+      "clip_start_frame": 0,
+      "clip_end_frame_exclusive": 33,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.06,
+        "scale_to": 1.09,
+        "x_from": 0.0,
+        "x_to": 14.0,
+        "y_from": 0.0,
+        "y_to": 0.0
+      },
+      "effect_ids": [
+        "ink-reveal",
+        "hook-title"
+      ],
+      "track_index": 100
+    },
+    {
+      "dom_id": "shot-S02-1",
+      "scene_id": "S02",
+      "image_id": "S02",
+      "start_frame": 30,
+      "end_frame_exclusive": 69,
+      "clip_start_frame": 27,
+      "clip_end_frame_exclusive": 72,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.08,
+        "scale_to": 1.12,
+        "x_from": 0.0,
+        "x_to": 0.0,
+        "y_from": 0.0,
+        "y_to": -16.0
+      },
+      "effect_ids": [
+        "mist-drift",
+        "annotation-seal"
+      ],
+      "track_index": 101
+    },
+    {
+      "dom_id": "shot-S03-1",
+      "scene_id": "S03",
+      "image_id": "S03",
+      "start_frame": 69,
+      "end_frame_exclusive": 97,
+      "clip_start_frame": 66,
+      "clip_end_frame_exclusive": 100,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.07,
+        "scale_to": 1.11,
+        "x_from": 20.0,
+        "x_to": -20.0,
+        "y_from": 0.0,
+        "y_to": 0.0
+      },
+      "effect_ids": [
+        "ink-wave"
+      ],
+      "track_index": 102
+    },
+    {
+      "dom_id": "shot-S04-1",
+      "scene_id": "S04",
+      "image_id": "S04",
+      "start_frame": 97,
+      "end_frame_exclusive": 119,
+      "clip_start_frame": 94,
+      "clip_end_frame_exclusive": 122,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.11,
+        "scale_to": 1.07,
+        "x_from": 0.0,
+        "x_to": 0.0,
+        "y_from": 0.0,
+        "y_to": 0.0
+      },
+      "effect_ids": [
+        "foreground-parallax",
+        "chapter-seal"
+      ],
+      "track_index": 103
+    },
+    {
+      "dom_id": "shot-S05-1",
+      "scene_id": "S05",
+      "image_id": "S05",
+      "start_frame": 119,
+      "end_frame_exclusive": 126,
+      "clip_start_frame": 116,
+      "clip_end_frame_exclusive": 129,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.06,
+        "scale_to": 1.0626,
+        "x_from": -18.0,
+        "x_to": -16.0,
+        "y_from": 0.0,
+        "y_to": 0.0
+      },
+      "effect_ids": [
+        "focus-mask",
+        "foreground-parallax"
+      ],
+      "track_index": 104
+    },
+    {
+      "dom_id": "shot-S05-2",
+      "scene_id": "S05",
+      "image_id": "S05",
+      "start_frame": 126,
+      "end_frame_exclusive": 159,
+      "clip_start_frame": 123,
+      "clip_end_frame_exclusive": 162,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.0626,
+        "scale_to": 1.075,
+        "x_from": -16.0,
+        "x_to": -6.8,
+        "y_from": 0.0,
+        "y_to": 0.0
+      },
+      "effect_ids": [
+        "ink-transition"
+      ],
+      "track_index": 105
+    },
+    {
+      "dom_id": "shot-S05-3",
+      "scene_id": "S05",
+      "image_id": "S05",
+      "start_frame": 159,
+      "end_frame_exclusive": 226,
+      "clip_start_frame": 156,
+      "clip_end_frame_exclusive": 229,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.075,
+        "scale_to": 1.1,
+        "x_from": -6.8,
+        "x_to": 12.0,
+        "y_from": 0.0,
+        "y_to": 0.0
+      },
+      "effect_ids": [
+        "ink-transition"
+      ],
+      "track_index": 106
+    },
+    {
+      "dom_id": "shot-S06-1",
+      "scene_id": "S06",
+      "image_id": "S06",
+      "start_frame": 226,
+      "end_frame_exclusive": 248,
+      "clip_start_frame": 223,
+      "clip_end_frame_exclusive": 251,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.1,
+        "scale_to": 1.13,
+        "x_from": 0.0,
+        "x_to": 0.0,
+        "y_from": 14.0,
+        "y_to": -10.0
+      },
+      "effect_ids": [
+        "cinnabar-slash",
+        "ink-splash"
+      ],
+      "track_index": 107
+    },
+    {
+      "dom_id": "shot-S07-1",
+      "scene_id": "S07",
+      "image_id": "S07",
+      "start_frame": 248,
+      "end_frame_exclusive": 281,
+      "clip_start_frame": 245,
+      "clip_end_frame_exclusive": 284,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.07,
+        "scale_to": 1.12,
+        "x_from": 16.0,
+        "x_to": -14.0,
+        "y_from": 0.0,
+        "y_to": 0.0
+      },
+      "effect_ids": [
+        "rain-lines",
+        "water-parallax",
+        "insert-cut"
+      ],
+      "track_index": 108
+    },
+    {
+      "dom_id": "shot-S08-1",
+      "scene_id": "S08",
+      "image_id": "S08",
+      "start_frame": 281,
+      "end_frame_exclusive": 320,
+      "clip_start_frame": 278,
+      "clip_end_frame_exclusive": 323,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.06,
+        "scale_to": 1.1,
+        "x_from": 0.0,
+        "x_to": 0.0,
+        "y_from": 0.0,
+        "y_to": 0.0
+      },
+      "effect_ids": [
+        "ink-transition",
+        "big-kanji"
+      ],
+      "track_index": 109
+    },
+    {
+      "dom_id": "shot-S09-1",
+      "scene_id": "S09",
+      "image_id": "S09",
+      "start_frame": 320,
+      "end_frame_exclusive": 327,
+      "clip_start_frame": 317,
+      "clip_end_frame_exclusive": 330,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.1,
+        "scale_to": 1.0962,
+        "x_from": 0.0,
+        "x_to": 0.0,
+        "y_from": 0.0,
+        "y_to": 0.0
+      },
+      "effect_ids": [
+        "music-cut",
+        "foreground-parallax"
+      ],
+      "track_index": 110
+    },
+    {
+      "dom_id": "shot-S09-2",
+      "scene_id": "S09",
+      "image_id": "S09",
+      "start_frame": 327,
+      "end_frame_exclusive": 393,
+      "clip_start_frame": 324,
+      "clip_end_frame_exclusive": 396,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.0962,
+        "scale_to": 1.06,
+        "x_from": 0.0,
+        "x_to": 0.0,
+        "y_from": 0.0,
+        "y_to": 0.0
+      },
+      "effect_ids": [
+        "ink-transition"
+      ],
+      "track_index": 111
+    },
+    {
+      "dom_id": "shot-S10-1",
+      "scene_id": "S10",
+      "image_id": "S10",
+      "start_frame": 393,
+      "end_frame_exclusive": 400,
+      "clip_start_frame": 390,
+      "clip_end_frame_exclusive": 403,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.06,
+        "scale_to": 1.0612,
+        "x_from": 12.0,
+        "x_to": 10.8,
+        "y_from": 0.0,
+        "y_to": 0.0
+      },
+      "effect_ids": [
+        "desaturate",
+        "emotional-hold"
+      ],
+      "track_index": 112
+    },
+    {
+      "dom_id": "shot-S10-2",
+      "scene_id": "S10",
+      "image_id": "S10",
+      "start_frame": 400,
+      "end_frame_exclusive": 444,
+      "clip_start_frame": 397,
+      "clip_end_frame_exclusive": 447,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.0612,
+        "scale_to": 1.0685,
+        "x_from": 10.8,
+        "x_to": 3.5,
+        "y_from": 0.0,
+        "y_to": 0.0
+      },
+      "effect_ids": [
+        "ink-transition"
+      ],
+      "track_index": 113
+    },
+    {
+      "dom_id": "shot-S10-3",
+      "scene_id": "S10",
+      "image_id": "S10",
+      "start_frame": 444,
+      "end_frame_exclusive": 513,
+      "clip_start_frame": 441,
+      "clip_end_frame_exclusive": 516,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.0685,
+        "scale_to": 1.08,
+        "x_from": 3.5,
+        "x_to": -8.0,
+        "y_from": 0.0,
+        "y_to": 0.0
+      },
+      "effect_ids": [
+        "ink-transition"
+      ],
+      "track_index": 114
+    },
+    {
+      "dom_id": "shot-S11-1",
+      "scene_id": "S11",
+      "image_id": "S11",
+      "start_frame": 513,
+      "end_frame_exclusive": 520,
+      "clip_start_frame": 510,
+      "clip_end_frame_exclusive": 523,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.07,
+        "scale_to": 1.0707,
+        "x_from": 0.0,
+        "x_to": 0.0,
+        "y_from": 10.0,
+        "y_to": 9.3
+      },
+      "effect_ids": [
+        "cross-dissolve",
+        "annotation-seal",
+        "foreground-parallax"
+      ],
+      "track_index": 115
+    },
+    {
+      "dom_id": "shot-S11-2",
+      "scene_id": "S11",
+      "image_id": "S11",
+      "start_frame": 520,
+      "end_frame_exclusive": 560,
+      "clip_start_frame": 517,
+      "clip_end_frame_exclusive": 563,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.0707,
+        "scale_to": 1.0748,
+        "x_from": 0.0,
+        "x_to": 0.0,
+        "y_from": 9.3,
+        "y_to": 5.2
+      },
+      "effect_ids": [
+        "ink-transition"
+      ],
+      "track_index": 116
+    },
+    {
+      "dom_id": "shot-S11-3",
+      "scene_id": "S11",
+      "image_id": "S11",
+      "start_frame": 560,
+      "end_frame_exclusive": 587,
+      "clip_start_frame": 557,
+      "clip_end_frame_exclusive": 590,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.0748,
+        "scale_to": 1.0776,
+        "x_from": 0.0,
+        "x_to": 0.0,
+        "y_from": 5.2,
+        "y_to": 2.4
+      },
+      "effect_ids": [
+        "ink-transition"
+      ],
+      "track_index": 117
+    },
+    {
+      "dom_id": "shot-S11-4",
+      "scene_id": "S11",
+      "image_id": "S11",
+      "start_frame": 587,
+      "end_frame_exclusive": 620,
+      "clip_start_frame": 584,
+      "clip_end_frame_exclusive": 623,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.0776,
+        "scale_to": 1.081,
+        "x_from": 0.0,
+        "x_to": 0.0,
+        "y_from": 2.4,
+        "y_to": -1.0
+      },
+      "effect_ids": [
+        "ink-transition"
+      ],
+      "track_index": 118
+    },
+    {
+      "dom_id": "shot-S11-5",
+      "scene_id": "S11",
+      "image_id": "S11",
+      "start_frame": 620,
+      "end_frame_exclusive": 677,
+      "clip_start_frame": 617,
+      "clip_end_frame_exclusive": 680,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.081,
+        "scale_to": 1.0868,
+        "x_from": 0.0,
+        "x_to": 0.0,
+        "y_from": -1.0,
+        "y_to": -6.8
+      },
+      "effect_ids": [
+        "ink-transition"
+      ],
+      "track_index": 119
+    },
+    {
+      "dom_id": "shot-S11-6",
+      "scene_id": "S11",
+      "image_id": "S11",
+      "start_frame": 677,
+      "end_frame_exclusive": 708,
+      "clip_start_frame": 674,
+      "clip_end_frame_exclusive": 711,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.0868,
+        "scale_to": 1.09,
+        "x_from": 0.0,
+        "x_to": 0.0,
+        "y_from": -6.8,
+        "y_to": -10.0
+      },
+      "effect_ids": [
+        "ink-transition"
+      ],
+      "track_index": 120
+    },
+    {
+      "dom_id": "shot-S12-1",
+      "scene_id": "S12",
+      "image_id": "S12",
+      "start_frame": 708,
+      "end_frame_exclusive": 715,
+      "clip_start_frame": 705,
+      "clip_end_frame_exclusive": 718,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.06,
+        "scale_to": 1.0615,
+        "x_from": 0.0,
+        "x_to": 0.7,
+        "y_from": 0.0,
+        "y_to": -0.4
+      },
+      "effect_ids": [
+        "ink-fade",
+        "chapter-seal",
+        "final-line"
+      ],
+      "track_index": 121
+    },
+    {
+      "dom_id": "shot-S12-2",
+      "scene_id": "S12",
+      "image_id": "S12",
+      "start_frame": 715,
+      "end_frame_exclusive": 749,
+      "clip_start_frame": 712,
+      "clip_end_frame_exclusive": 752,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.0615,
+        "scale_to": 1.0685,
+        "x_from": 0.7,
+        "x_to": 3.8,
+        "y_from": -0.4,
+        "y_to": -2.6
+      },
+      "effect_ids": [
+        "ink-transition"
+      ],
+      "track_index": 122
+    },
+    {
+      "dom_id": "shot-S12-3",
+      "scene_id": "S12",
+      "image_id": "S12",
+      "start_frame": 749,
+      "end_frame_exclusive": 818,
+      "clip_start_frame": 746,
+      "clip_end_frame_exclusive": 821,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.0685,
+        "scale_to": 1.0829,
+        "x_from": 3.8,
+        "x_to": 10.3,
+        "y_from": -2.6,
+        "y_to": -6.9
+      },
+      "effect_ids": [
+        "ink-transition"
+      ],
+      "track_index": 123
+    },
+    {
+      "dom_id": "shot-S12-4",
+      "scene_id": "S12",
+      "image_id": "S12",
+      "start_frame": 818,
+      "end_frame_exclusive": 887,
+      "clip_start_frame": 815,
+      "clip_end_frame_exclusive": 890,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.0829,
+        "scale_to": 1.0973,
+        "x_from": 10.3,
+        "x_to": 16.8,
+        "y_from": -6.9,
+        "y_to": -11.2
+      },
+      "effect_ids": [
+        "ink-transition"
+      ],
+      "track_index": 124
+    },
+    {
+      "dom_id": "shot-S12-5",
+      "scene_id": "S12",
+      "image_id": "S12",
+      "start_frame": 887,
+      "end_frame_exclusive": 900,
+      "clip_start_frame": 884,
+      "clip_end_frame_exclusive": 900,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.0973,
+        "scale_to": 1.1,
+        "x_from": 16.8,
+        "x_to": 18.0,
+        "y_from": -11.2,
+        "y_to": -12.0
+      },
+      "effect_ids": [
+        "ink-transition"
+      ],
+      "track_index": 125
+    },
+    {
+      "dom_id": "insert-S07B",
+      "scene_id": "S07B",
+      "image_id": "S07B",
+      "start_frame": 279,
+      "end_frame_exclusive": 281,
+      "clip_start_frame": 276,
+      "clip_end_frame_exclusive": 284,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.12,
+        "scale_to": 1.04,
+        "x_from": 0,
+        "x_to": 0,
+        "y_from": 0,
+        "y_to": 0
+      },
+      "effect_ids": [],
+      "track_index": 226
+    },
+    {
+      "dom_id": "insert-S11B",
+      "scene_id": "S11B",
+      "image_id": "S11B",
+      "start_frame": 620,
+      "end_frame_exclusive": 674,
+      "clip_start_frame": 617,
+      "clip_end_frame_exclusive": 677,
+      "transition_sec": 0.2,
+      "exit_fade_sec": 0.2,
+      "motion": {
+        "scale_from": 1.12,
+        "scale_to": 1.04,
+        "x_from": 0,
+        "x_to": 0,
+        "y_from": 0,
+        "y_to": 0
+      },
+      "effect_ids": [],
+      "track_index": 227
+    }
+  ],
+  "captions": [
+    {
+      "id": "C01",
+      "dom_id": "caption-01",
+      "start_frame": 7,
+      "end_frame_exclusive": 35,
+      "text": "义兴三害：",
+      "lines": [
+        "义兴三害："
+      ],
+      "line_id": "V1"
+    },
+    {
+      "id": "C02",
+      "dom_id": "caption-02",
+      "start_frame": 37,
+      "end_frame_exclusive": 74,
+      "text": "山中邅迹虎，",
+      "lines": [
+        "山中邅迹虎，"
+      ],
+      "line_id": "V1"
+    },
+    {
+      "id": "C03",
+      "dom_id": "caption-03",
+      "start_frame": 76,
+      "end_frame_exclusive": 102,
+      "text": "水中恶蛟，",
+      "lines": [
+        "水中恶蛟，"
+      ],
+      "line_id": "V1"
+    },
+    {
+      "id": "C04",
+      "dom_id": "caption-04",
+      "start_frame": 104,
+      "end_frame_exclusive": 124,
+      "text": "还有周处。",
+      "lines": [
+        "还有周处。"
+      ],
+      "line_id": "V1"
+    },
+    {
+      "id": "C05",
+      "dom_id": "caption-05",
+      "start_frame": 126,
+      "end_frame_exclusive": 157,
+      "text": "乡人劝周处",
+      "lines": [
+        "乡人劝周处"
+      ],
+      "line_id": "V2"
+    },
+    {
+      "id": "C06",
+      "dom_id": "caption-06",
+      "start_frame": 159,
+      "end_frame_exclusive": 183,
+      "text": "除虎斩蛟，",
+      "lines": [
+        "除虎斩蛟，"
+      ],
+      "line_id": "V2"
+    },
+    {
+      "id": "C07",
+      "dom_id": "caption-07",
+      "start_frame": 184,
+      "end_frame_exclusive": 231,
+      "text": "暗盼三害只余其一。",
+      "lines": [
+        "暗盼三害只余其一。"
+      ],
+      "line_id": "V2"
+    },
+    {
+      "id": "C08",
+      "dom_id": "caption-08",
+      "start_frame": 233,
+      "end_frame_exclusive": 286,
+      "text": "他刺虎，追蛟数十里，",
+      "lines": [
+        "他刺虎，追蛟数十里，"
+      ],
+      "line_id": "V3"
+    },
+    {
+      "id": "C09",
+      "dom_id": "caption-09",
+      "start_frame": 288,
+      "end_frame_exclusive": 326,
+      "text": "三日三夜未归。",
+      "lines": [
+        "三日三夜未归。"
+      ],
+      "line_id": "V3"
+    },
+    {
+      "id": "C10",
+      "dom_id": "caption-10",
+      "start_frame": 327,
+      "end_frame_exclusive": 369,
+      "text": "乡人以为他死了，",
+      "lines": [
+        "乡人以为他死了，"
+      ],
+      "line_id": "V4"
+    },
+    {
+      "id": "C11",
+      "dom_id": "caption-11",
+      "start_frame": 370,
+      "end_frame_exclusive": 399,
+      "text": "竟相庆贺。",
+      "lines": [
+        "竟相庆贺。"
+      ],
+      "line_id": "V4"
+    },
+    {
+      "id": "C12",
+      "dom_id": "caption-12",
+      "start_frame": 400,
+      "end_frame_exclusive": 443,
+      "text": "周处斩蛟归来，",
+      "lines": [
+        "周处斩蛟归来，"
+      ],
+      "line_id": "V5"
+    },
+    {
+      "id": "C13",
+      "dom_id": "caption-13",
+      "start_frame": 444,
+      "end_frame_exclusive": 492,
+      "text": "才知自己为人所患，",
+      "lines": [
+        "才知自己为人所患，"
+      ],
+      "line_id": "V5"
+    },
+    {
+      "id": "C14",
+      "dom_id": "caption-14",
+      "start_frame": 494,
+      "end_frame_exclusive": 518,
+      "text": "决意改过。",
+      "lines": [
+        "决意改过。"
+      ],
+      "line_id": "V5"
+    },
+    {
+      "id": "C15",
+      "dom_id": "caption-15",
+      "start_frame": 520,
+      "end_frame_exclusive": 558,
+      "text": "他寻二陆，",
+      "lines": [
+        "他寻二陆，"
+      ],
+      "line_id": "V6"
+    },
+    {
+      "id": "C16",
+      "dom_id": "caption-16",
+      "start_frame": 560,
+      "end_frame_exclusive": 585,
+      "text": "只见陆云，",
+      "lines": [
+        "只见陆云，"
+      ],
+      "line_id": "V6"
+    },
+    {
+      "id": "C17",
+      "dom_id": "caption-17",
+      "start_frame": 587,
+      "end_frame_exclusive": 618,
+      "text": "忧年已蹉跎。",
+      "lines": [
+        "忧年已蹉跎。"
+      ],
+      "line_id": "V6"
+    },
+    {
+      "id": "C18",
+      "dom_id": "caption-18",
+      "start_frame": 620,
+      "end_frame_exclusive": 676,
+      "text": "陆云说：人患志之不立，",
+      "lines": [
+        "陆云说：人患志之不立，"
+      ],
+      "line_id": "V7"
+    },
+    {
+      "id": "C19",
+      "dom_id": "caption-19",
+      "start_frame": 677,
+      "end_frame_exclusive": 713,
+      "text": "何忧令名不彰！",
+      "lines": [
+        "何忧令名不彰！"
+      ],
+      "line_id": "V7"
+    },
+    {
+      "id": "C20",
+      "dom_id": "caption-20",
+      "start_frame": 715,
+      "end_frame_exclusive": 748,
+      "text": "周处遂改励，",
+      "lines": [
+        "周处遂改励，"
+      ],
+      "line_id": "V8"
+    },
+    {
+      "id": "C21",
+      "dom_id": "caption-21",
+      "start_frame": 749,
+      "end_frame_exclusive": 798,
+      "text": "终为忠臣孝子。",
+      "lines": [
+        "终为忠臣孝子。"
+      ],
+      "line_id": "V8"
+    }
+  ],
+  "motes": [
+    {
+      "dom_id": "mote-00",
+      "start_frame": 261,
+      "end_frame_exclusive": 272,
+      "x0": 398.6,
+      "y0": 445.1,
+      "x1": 706.3,
+      "y1": 1675.1,
+      "opacity": 0.384,
+      "scale": 0.69
+    },
+    {
+      "dom_id": "mote-01",
+      "start_frame": 0,
+      "end_frame_exclusive": 15,
+      "x0": 742.7,
+      "y0": 1670.1,
+      "x1": 979.7,
+      "y1": 1464.4,
+      "opacity": 0.275,
+      "scale": 0.95
+    },
+    {
+      "dom_id": "mote-02",
+      "start_frame": 408,
+      "end_frame_exclusive": 497,
+      "x0": 136.6,
+      "y0": 1238.5,
+      "x1": 1011.1,
+      "y1": 1455.9,
+      "opacity": 0.471,
+      "scale": 1.53
+    },
+    {
+      "dom_id": "mote-03",
+      "start_frame": 33,
+      "end_frame_exclusive": 47,
+      "x0": 832.0,
+      "y0": 1287.2,
+      "x1": 360.6,
+      "y1": 359.0,
+      "opacity": 0.383,
+      "scale": 1.0
+    },
+    {
+      "dom_id": "mote-04",
+      "start_frame": 236,
+      "end_frame_exclusive": 246,
+      "x0": 572.8,
+      "y0": 413.0,
+      "x1": 349.7,
+      "y1": 1447.4,
+      "opacity": 0.589,
+      "scale": 0.65
+    },
+    {
+      "dom_id": "mote-05",
+      "start_frame": 229,
+      "end_frame_exclusive": 236,
+      "x0": 871.3,
+      "y0": 243.7,
+      "x1": 970.7,
+      "y1": 582.8,
+      "opacity": 0.439,
+      "scale": 1.68
+    },
+    {
+      "dom_id": "mote-06",
+      "start_frame": 46,
+      "end_frame_exclusive": 59,
+      "x0": 768.9,
+      "y0": 1112.9,
+      "x1": 656.2,
+      "y1": 896.5,
+      "opacity": 0.492,
+      "scale": 1.12
+    },
+    {
+      "dom_id": "mote-07",
+      "start_frame": 369,
+      "end_frame_exclusive": 393,
+      "x0": 760.7,
+      "y0": 1489.4,
+      "x1": 278.2,
+      "y1": 1681.2,
+      "opacity": 0.399,
+      "scale": 0.83
+    },
+    {
+      "dom_id": "mote-08",
+      "start_frame": 293,
+      "end_frame_exclusive": 315,
+      "x0": 498.8,
+      "y0": 858.0,
+      "x1": 825.6,
+      "y1": 1209.3,
+      "opacity": 0.341,
+      "scale": 1.79
+    },
+    {
+      "dom_id": "mote-09",
+      "start_frame": 345,
+      "end_frame_exclusive": 367,
+      "x0": 476.2,
+      "y0": 367.3,
+      "x1": 974.5,
+      "y1": 1164.7,
+      "opacity": 0.557,
+      "scale": 0.92
+    },
+    {
+      "dom_id": "mote-10",
+      "start_frame": 515,
+      "end_frame_exclusive": 609,
+      "x0": 368.5,
+      "y0": 239.1,
+      "x1": 924.9,
+      "y1": 1542.6,
+      "opacity": 0.45,
+      "scale": 0.84
+    },
+    {
+      "dom_id": "mote-11",
+      "start_frame": 102,
+      "end_frame_exclusive": 111,
+      "x0": 790.4,
+      "y0": 1235.5,
+      "x1": 942.3,
+      "y1": 1116.1,
+      "opacity": 0.321,
+      "scale": 1.35
+    },
+    {
+      "dom_id": "mote-12",
+      "start_frame": 262,
+      "end_frame_exclusive": 273,
+      "x0": 701.3,
+      "y0": 1380.8,
+      "x1": 878.0,
+      "y1": 1142.2,
+      "opacity": 0.341,
+      "scale": 1.33
+    },
+    {
+      "dom_id": "mote-13",
+      "start_frame": 329,
+      "end_frame_exclusive": 372,
+      "x0": 1067.7,
+      "y0": 1159.8,
+      "x1": 698.5,
+      "y1": 247.1,
+      "opacity": 0.569,
+      "scale": 1.17
+    },
+    {
+      "dom_id": "mote-14",
+      "start_frame": 800,
+      "end_frame_exclusive": 900,
+      "x0": 1049.5,
+      "y0": 813.2,
+      "x1": 295.0,
+      "y1": 932.7,
+      "opacity": 0.462,
+      "scale": 1.71
+    },
+    {
+      "dom_id": "mote-15",
+      "start_frame": 296,
+      "end_frame_exclusive": 319,
+      "x0": 193.3,
+      "y0": 236.3,
+      "x1": 113.2,
+      "y1": 408.1,
+      "opacity": 0.46,
+      "scale": 0.71
+    },
+    {
+      "dom_id": "mote-16",
+      "start_frame": 252,
+      "end_frame_exclusive": 276,
+      "x0": 482.3,
+      "y0": 1565.6,
+      "x1": 966.9,
+      "y1": 1560.9,
+      "opacity": 0.198,
+      "scale": 1.46
+    },
+    {
+      "dom_id": "mote-17",
+      "start_frame": 294,
+      "end_frame_exclusive": 320,
+      "x0": 605.7,
+      "y0": 1065.9,
+      "x1": 282.3,
+      "y1": 1326.7,
+      "opacity": 0.201,
+      "scale": 0.97
+    },
+    {
+      "dom_id": "mote-18",
+      "start_frame": 105,
+      "end_frame_exclusive": 119,
+      "x0": 720.1,
+      "y0": 811.4,
+      "x1": 867.7,
+      "y1": 544.9,
+      "opacity": 0.426,
+      "scale": 1.11
+    },
+    {
+      "dom_id": "mote-19",
+      "start_frame": 6,
+      "end_frame_exclusive": 29,
+      "x0": 942.6,
+      "y0": 384.2,
+      "x1": 184.0,
+      "y1": 630.9,
+      "opacity": 0.593,
+      "scale": 0.88
+    },
+    {
+      "dom_id": "mote-20",
+      "start_frame": 253,
+      "end_frame_exclusive": 266,
+      "x0": 328.8,
+      "y0": 616.3,
+      "x1": 593.6,
+      "y1": 909.7,
+      "opacity": 0.524,
+      "scale": 1.36
+    },
+    {
+      "dom_id": "mote-21",
+      "start_frame": 34,
+      "end_frame_exclusive": 58,
+      "x0": 15.4,
+      "y0": 676.2,
+      "x1": 317.4,
+      "y1": 1232.7,
+      "opacity": 0.474,
+      "scale": 1.09
+    },
+    {
+      "dom_id": "mote-22",
+      "start_frame": 253,
+      "end_frame_exclusive": 278,
+      "x0": 606.4,
+      "y0": 1112.6,
+      "x1": 247.3,
+      "y1": 1322.6,
+      "opacity": 0.576,
+      "scale": 1.22
+    },
+    {
+      "dom_id": "mote-23",
+      "start_frame": 779,
+      "end_frame_exclusive": 853,
+      "x0": 1017.0,
+      "y0": 1155.0,
+      "x1": 529.1,
+      "y1": 1008.3,
+      "opacity": 0.572,
+      "scale": 1.78
+    },
+    {
+      "dom_id": "mote-24",
+      "start_frame": 562,
+      "end_frame_exclusive": 627,
+      "x0": 867.1,
+      "y0": 913.1,
+      "x1": 366.3,
+      "y1": 382.7,
+      "opacity": 0.559,
+      "scale": 1.63
+    },
+    {
+      "dom_id": "mote-25",
+      "start_frame": 530,
+      "end_frame_exclusive": 615,
+      "x0": 27.8,
+      "y0": 612.4,
+      "x1": 181.7,
+      "y1": 1340.5,
+      "opacity": 0.575,
+      "scale": 0.87
+    },
+    {
+      "dom_id": "mote-26",
+      "start_frame": 71,
+      "end_frame_exclusive": 86,
+      "x0": 745.0,
+      "y0": 1668.8,
+      "x1": 1076.9,
+      "y1": 1470.3,
+      "opacity": 0.394,
+      "scale": 1.86
+    },
+    {
+      "dom_id": "mote-27",
+      "start_frame": 83,
+      "end_frame_exclusive": 97,
+      "x0": 997.1,
+      "y0": 696.5,
+      "x1": 940.5,
+      "y1": 779.7,
+      "opacity": 0.207,
+      "scale": 0.75
+    }
+  ]
+}

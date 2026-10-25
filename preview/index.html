@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>周处除三害｜30秒 · 成片校阅</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+
+    <header class="page-header">
+      <div class="page-header__inner">
+        <h1 class="page-title">周处除三害<span class="page-title__sep">｜</span>30秒</h1>
+        <p class="page-subtitle">《世说新语·自新》 · 绢本设色叙事短片 · 离线校阅</p>
+      </div>
+    </header>
+
+    <main id="main" class="layout">
+      <!-- C5 校阅播放器 + C6 操作按钮 -->
+      <section class="column column--player" aria-labelledby="player-heading">
+        <h2 id="player-heading" class="section-title">成片</h2>
+
+        <div class="player-shell" id="player-shell">
+          <div class="player-frame">
+            <video
+              id="player"
+              class="player"
+              controls
+              playsinline
+              preload="metadata"
+              aria-label="周处除三害 30 秒成片"
+              poster=""
+            ></video>
+            <div class="player-overlay" id="player-overlay" role="status" aria-live="polite">
+              <p class="player-overlay__text" id="overlay-text">正在读取本地影片…</p>
+              <button type="button" class="btn btn--secondary" id="cancel-load" hidden>取消加载</button>
+            </div>
+          </div>
+
+          <div class="btn-row" role="group" aria-label="成片操作">
+            <button type="button" class="btn btn--primary" id="btn-play" aria-label="播放或暂停"
+              aria-describedby="player-error">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M8 5.5v13l11-6.5z" fill="currentColor" stroke="none" />
+              </svg>
+              <span class="btn__label">播放</span>
+            </button>
+            <button type="button" class="btn" id="btn-replay" aria-label="从头重播">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M20 12a8 8 0 1 1-2.6-5.9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                <path d="M20 4v4h-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <span class="btn__label">重播</span>
+            </button>
+            <button type="button" class="btn" id="btn-download-mp4" aria-label="下载 MP4 成片"
+              aria-describedby="player-error">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M12 4v11m0 0 4-4m-4 4-4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M5 19h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+              <span class="btn__label">下载 MP4</span>
+            </button>
+            <button type="button" class="btn" id="btn-download-srt" aria-label="下载 SRT 字幕"
+              aria-describedby="player-error">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M6 4h8l4 4v12H6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                <path d="M9 13h6M9 16h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+              <span class="btn__label">下载 SRT</span>
+            </button>
+          </div>
+
+          <p class="status-line" id="player-status" role="status" aria-live="polite"></p>
+          <p class="status-line status-line--error" id="player-error" role="alert" hidden></p>
+        </div>
+      </section>
+
+      <!-- C7 台词折叠区 + C8 状态条 -->
+      <section class="column column--content" aria-labelledby="content-heading">
+        <h2 id="content-heading" class="section-title">台本与校验</h2>
+
+        <div class="card">
+          <div class="card__head">
+            <h3 class="card__title">旁白台词</h3>
+            <button
+              type="button"
+              class="btn btn--secondary"
+              id="toggle-script"
+              aria-expanded="false"
+              aria-controls="script-body"
+            >
+              展开完整台词
+            </button>
+          </div>
+          <p class="card__meta" id="script-meta">台词尚未生成，请先运行构建脚本</p>
+          <div class="card__body" id="script-body" hidden>
+            <ol class="script-list" id="script-list"></ol>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card__head">
+            <h3 class="card__title">原文</h3>
+          </div>
+          <div class="card__body">
+            <blockquote class="source-text">
+              周处年少时，凶强侠气，为乡里所患；又义兴水中有蛟，山中有邅迹虎，并皆暴犯百姓。
+              义兴人谓为三横，而处尤剧。或说处杀虎斩蛟，实冀三横唯馀其一。处即刺杀虎，又入水击蛟，
+              蛟或浮或没，行数十里，处与之俱。经三日三夜，乡里皆谓已死，更相庆。竟杀蛟而出。
+              闻里人相庆，始知为人情所患，有自改意。乃自吴寻二陆，平原不在，正见清河，具以情告，
+              并云：「欲自修改，而年已蹉跎，终无所成。」清河曰：「古人贵朝闻夕死，况君前途尚可。
+              且人患志之不立，亦何忧令名不彰邪！」处遂改励，终为忠臣孝子。
+            </blockquote>
+            <p class="card__meta">南朝宋刘义庆《世说新语·自新》第十五</p>
+          </div>
+        </div>
+
+        <div class="status-bar" id="status-bar" role="status" aria-live="polite">
+          <svg class="icon status-bar__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2" />
+            <path d="M12 8v5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            <path d="M12 16h.01" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+          <span id="status-text">尚未运行本机验证</span>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

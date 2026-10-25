@@ -1,0 +1,413 @@
+{
+  "records": [
+    {
+      "id": "A01-duration",
+      "expected": "29.700–30.300s",
+      "observed": 30.0,
+      "status": "PASS",
+      "evidence_path": "reports/ffprobe.json",
+      "comment": "ffprobe format.duration"
+    },
+    {
+      "id": "A01-size",
+      "expected": "1080x1920",
+      "observed": "1080x1920",
+      "status": "PASS",
+      "evidence_path": "reports/ffprobe.json",
+      "comment": ""
+    },
+    {
+      "id": "A01-fps",
+      "expected": "30/1",
+      "observed": "30/1",
+      "status": "PASS",
+      "evidence_path": "reports/ffprobe.json",
+      "comment": ""
+    },
+    {
+      "id": "A01-frames",
+      "expected": 900,
+      "observed": 900,
+      "status": "PASS",
+      "evidence_path": "reports/ffprobe.json",
+      "comment": "视频总帧数"
+    },
+    {
+      "id": "A01-codec",
+      "expected": "h264 + aac",
+      "observed": "h264/aac",
+      "status": "PASS",
+      "evidence_path": "reports/ffprobe.json",
+      "comment": ""
+    },
+    {
+      "id": "A01-audio-params",
+      "expected": "48000Hz 2ch",
+      "observed": "48000Hz 2ch",
+      "status": "PASS",
+      "evidence_path": "reports/ffprobe.json",
+      "comment": ""
+    },
+    {
+      "id": "A01-no-extra-video-stream",
+      "expected": 1,
+      "observed": 1,
+      "status": "PASS",
+      "evidence_path": "reports/ffprobe.json",
+      "comment": "只有一条视频流"
+    },
+    {
+      "id": "A02-voice-lufs",
+      "expected": "-16±1 LUFS",
+      "observed": -16.0,
+      "status": "PASS",
+      "evidence_path": "reports/audio-measure.json",
+      "comment": "人声 stem 独立测量"
+    },
+    {
+      "id": "A02-true-peak",
+      "expected": "≤ -1.5 dBTP",
+      "observed": -1.8,
+      "status": "PASS",
+      "evidence_path": "reports/audio-measure.json",
+      "comment": "混音真峰"
+    },
+    {
+      "id": "A02-voice-over-bed",
+      "expected": "≥ 12 dB",
+      "observed": 16.57,
+      "status": "PASS",
+      "evidence_path": "reports/audio-measure.json",
+      "comment": "人声窗口内人声/底乐 RMS 差"
+    },
+    {
+      "id": "A03-three-threats",
+      "expected": [
+        "邅迹虎",
+        "恶蛟",
+        "周处"
+      ],
+      "observed": [
+        "邅迹虎",
+        "恶蛟",
+        "周处"
+      ],
+      "status": "PASS",
+      "evidence_path": "film/story.json",
+      "comment": "原文节点覆盖"
+    },
+    {
+      "id": "A03-provocation",
+      "expected": [
+        "劝",
+        "斩蛟"
+      ],
+      "observed": [
+        "劝",
+        "斩蛟"
+      ],
+      "status": "PASS",
+      "evidence_path": "film/story.json",
+      "comment": "原文节点覆盖"
+    },
+    {
+      "id": "A03-battle",
+      "expected": [
+        "刺虎",
+        "三日三夜"
+      ],
+      "observed": [
+        "刺虎",
+        "三日三夜"
+      ],
+      "status": "PASS",
+      "evidence_path": "film/story.json",
+      "comment": "原文节点覆盖"
+    },
+    {
+      "id": "A03-celebration",
+      "expected": [
+        "相庆贺"
+      ],
+      "observed": [
+        "相庆贺"
+      ],
+      "status": "PASS",
+      "evidence_path": "film/story.json",
+      "comment": "原文节点覆盖"
+    },
+    {
+      "id": "A03-realization",
+      "expected": [
+        "为人所患",
+        "改过"
+      ],
+      "observed": [
+        "为人所患",
+        "改过"
+      ],
+      "status": "PASS",
+      "evidence_path": "film/story.json",
+      "comment": "原文节点覆盖"
+    },
+    {
+      "id": "A03-counsel",
+      "expected": [
+        "二陆",
+        "陆云",
+        "志之不立"
+      ],
+      "observed": [
+        "二陆",
+        "陆云",
+        "志之不立"
+      ],
+      "status": "PASS",
+      "evidence_path": "film/story.json",
+      "comment": "原文节点覆盖"
+    },
+    {
+      "id": "A03-reform",
+      "expected": [
+        "改励",
+        "忠臣孝子"
+      ],
+      "observed": [
+        "改励",
+        "忠臣孝子"
+      ],
+      "status": "PASS",
+      "evidence_path": "film/story.json",
+      "comment": "原文节点覆盖"
+    },
+    {
+      "id": "A03-no-white-tiger",
+      "expected": "不得出现白额虎",
+      "observed": false,
+      "status": "PASS",
+      "evidence_path": "film/story.json",
+      "comment": ""
+    },
+    {
+      "id": "A03-luyun-not-luji",
+      "expected": "只出现陆云",
+      "observed": false,
+      "status": "PASS",
+      "evidence_path": "film/story.json",
+      "comment": ""
+    },
+    {
+      "id": "A04-scene-count",
+      "expected": "≥12 个明显不同场景",
+      "observed": 12,
+      "status": "PASS",
+      "evidence_path": "work/scenes.json",
+      "comment": ""
+    },
+    {
+      "id": "A04-image-count",
+      "expected": "≥14 张可追溯静图",
+      "observed": 14,
+      "status": "PASS",
+      "evidence_path": "work/scenes.json",
+      "comment": ""
+    },
+    {
+      "id": "A04-effects",
+      "expected": "每场至少一种特效",
+      "observed": "全部有",
+      "status": "PASS",
+      "evidence_path": "work/scenes.json",
+      "comment": ""
+    },
+    {
+      "id": "A04-no-static-hold",
+      "expected": "同图连续 ≤ 2.3s",
+      "observed": 2.3,
+      "status": "PASS",
+      "evidence_path": "work/scenes.json",
+      "comment": "最长同图连续时长"
+    },
+    {
+      "id": "A05-line-width",
+      "expected": "每行 ≤ 13 汉字",
+      "observed": "全部合规",
+      "status": "PASS",
+      "evidence_path": "work/align/captions.json",
+      "comment": ""
+    },
+    {
+      "id": "A05-max-lines",
+      "expected": "最多 2 行",
+      "observed": "全部合规",
+      "status": "PASS",
+      "evidence_path": "work/align/captions.json",
+      "comment": ""
+    },
+    {
+      "id": "A05-ordered",
+      "expected": "字幕不重叠且时间有序",
+      "observed": true,
+      "status": "PASS",
+      "evidence_path": "work/align/captions.json",
+      "comment": ""
+    },
+    {
+      "id": "A05-char-coverage",
+      "expected": "每个汉字都有时码",
+      "observed": 116,
+      "status": "PASS",
+      "evidence_path": "work/align/char_cues.json",
+      "comment": "对齐方式 forced"
+    },
+    {
+      "id": "A05-srt-exists",
+      "expected": "SRT 存在",
+      "observed": "863 字符",
+      "status": "PASS",
+      "evidence_path": "deliver/zhouchu_30s.srt",
+      "comment": ""
+    },
+    {
+      "id": "A06-no-video-assets",
+      "expected": "无任何视频生成素材",
+      "observed": "全部为静态图",
+      "status": "PASS",
+      "evidence_path": "work/asset-manifest.json",
+      "comment": ""
+    },
+    {
+      "id": "A06-hashes",
+      "expected": "每张图有 sha256",
+      "observed": "全部齐全",
+      "status": "PASS",
+      "evidence_path": "work/asset-manifest.json",
+      "comment": ""
+    },
+    {
+      "id": "A06-no-video-files",
+      "expected": "素材目录无视频文件",
+      "observed": "无",
+      "status": "PASS",
+      "evidence_path": "film/assets/",
+      "comment": "硬约束：禁用一切视频生成模型"
+    },
+    {
+      "id": "A07-preview-states",
+      "expected": [
+        "成片尚未生成",
+        "正在读取本地影片",
+        "成片读取失败",
+        "30 秒成片已就绪"
+      ],
+      "observed": "四态齐全",
+      "status": "PASS",
+      "evidence_path": "preview/index.html",
+      "comment": "空/加载/错误/成功"
+    },
+    {
+      "id": "A07-preview-no-emoji",
+      "expected": "无 emoji",
+      "observed": true,
+      "status": "PASS",
+      "evidence_path": "preview/index.html",
+      "comment": "图标一律自绘 SVG"
+    },
+    {
+      "id": "A07-preview-keyboard",
+      "expected": "键盘与 ARIA 齐备",
+      "observed": true,
+      "status": "PASS",
+      "evidence_path": "preview/index.html",
+      "comment": ""
+    },
+    {
+      "id": "A08-file-zhouchu_30s.mp4",
+      "expected": "存在",
+      "observed": true,
+      "status": "PASS",
+      "evidence_path": "deliver/zhouchu_30s.mp4",
+      "comment": ""
+    },
+    {
+      "id": "A08-file-zhouchu_30s.srt",
+      "expected": "存在",
+      "observed": true,
+      "status": "PASS",
+      "evidence_path": "deliver/zhouchu_30s.srt",
+      "comment": ""
+    },
+    {
+      "id": "A08-file-narration.txt",
+      "expected": "存在",
+      "observed": true,
+      "status": "PASS",
+      "evidence_path": "deliver/narration.txt",
+      "comment": ""
+    },
+    {
+      "id": "A08-file-poster.jpg",
+      "expected": "存在",
+      "observed": true,
+      "status": "PASS",
+      "evidence_path": "deliver/poster.jpg",
+      "comment": ""
+    },
+    {
+      "id": "A08-file-manifest.json",
+      "expected": "存在",
+      "observed": true,
+      "status": "PASS",
+      "evidence_path": "deliver/manifest.json",
+      "comment": ""
+    },
+    {
+      "id": "A08-narration-lines",
+      "expected": 8,
+      "observed": 8,
+      "status": "PASS",
+      "evidence_path": "deliver/narration.txt",
+      "comment": "官方旁白文案"
+    },
+    {
+      "id": "A08-contrast-primary/bg",
+      "expected": "≥ 4.5:1",
+      "observed": 14.88,
+      "status": "PASS",
+      "evidence_path": "film/design-tokens.json",
+      "comment": "WCAG 公式实测"
+    },
+    {
+      "id": "A08-contrast-secondary/surface",
+      "expected": "≥ 4.5:1",
+      "observed": 9.75,
+      "status": "PASS",
+      "evidence_path": "film/design-tokens.json",
+      "comment": "WCAG 公式实测"
+    },
+    {
+      "id": "A08-contrast-border/bg",
+      "expected": "≥ 3.0:1",
+      "observed": 5.02,
+      "status": "PASS",
+      "evidence_path": "film/design-tokens.json",
+      "comment": "WCAG 公式实测"
+    },
+    {
+      "id": "A08-contrast-caption/bg",
+      "expected": "≥ 4.5:1",
+      "observed": 14.88,
+      "status": "PASS",
+      "evidence_path": "film/design-tokens.json",
+      "comment": "WCAG 公式实测"
+    },
+    {
+      "id": "A08-video-sha256",
+      "expected": "可查 hash",
+      "observed": "fb1862b967a56852",
+      "status": "PASS",
+      "evidence_path": "deliver/manifest.json",
+      "comment": ""
+    }
+  ]
+}

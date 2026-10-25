@@ -1,0 +1,230 @@
+{
+  "sample_rate": 48000,
+  "voice": {
+    "source": "work/voice_master.wav",
+    "integrated_lufs": -16.0,
+    "target_lufs": -16,
+    "tolerance": 1,
+    "true_peak_db": -1.8,
+    "lufs_pass": true
+  },
+  "bed": {
+    "source": "work/bgm_norm.wav",
+    "target_lufs": -25,
+    "rights": "procedurally synthesized in project",
+    "generator_candidates": [
+      {
+        "node_id": "456097667141915",
+        "file_name": "music_bec44b9c.mp3",
+        "rights_status": "account-terms-unverified"
+      },
+      {
+        "node_id": "456097149182961",
+        "file_name": "music_daa0ea67.mp3",
+        "rights_status": "account-terms-unverified"
+      },
+      {
+        "node_id": "456096735678646",
+        "file_name": "music_ada39409.mp3",
+        "rights_status": "account-terms-unverified"
+      }
+    ]
+  },
+  "mix": {
+    "source": "work/final_mix.wav",
+    "integrated_lufs": -13.4,
+    "true_peak_db": -1.8,
+    "true_peak_limit_db": -1.5,
+    "applied_gain_db": -0.5,
+    "downmix_rounds": 1,
+    "peak_pass": true
+  },
+  "voice_windows": [
+    {
+      "index": 1,
+      "start_ms": 220,
+      "end_ms": 1183,
+      "voice_rms_db": -16.89,
+      "bed_rms_db": -34.87,
+      "difference_db": 17.98
+    },
+    {
+      "index": 2,
+      "start_ms": 1237,
+      "end_ms": 2474,
+      "voice_rms_db": -14.96,
+      "bed_rms_db": -32.94,
+      "difference_db": 17.98
+    },
+    {
+      "index": 3,
+      "start_ms": 2529,
+      "end_ms": 3410,
+      "voice_rms_db": -15.12,
+      "bed_rms_db": -33.08,
+      "difference_db": 17.96
+    },
+    {
+      "index": 4,
+      "start_ms": 3464,
+      "end_ms": 4143,
+      "voice_rms_db": -16.34,
+      "bed_rms_db": -34.32,
+      "difference_db": 17.98
+    },
+    {
+      "index": 5,
+      "start_ms": 4197,
+      "end_ms": 5238,
+      "voice_rms_db": -14.82,
+      "bed_rms_db": -37.51,
+      "difference_db": 22.69
+    },
+    {
+      "index": 6,
+      "start_ms": 5292,
+      "end_ms": 6093,
+      "voice_rms_db": -14.42,
+      "bed_rms_db": -32.7,
+      "difference_db": 18.28
+    },
+    {
+      "index": 7,
+      "start_ms": 6147,
+      "end_ms": 7710,
+      "voice_rms_db": -16.17,
+      "bed_rms_db": -34.16,
+      "difference_db": 18.0
+    },
+    {
+      "index": 8,
+      "start_ms": 7765,
+      "end_ms": 8460,
+      "voice_rms_db": -16.66,
+      "bed_rms_db": -34.44,
+      "difference_db": 17.78
+    },
+    {
+      "index": 9,
+      "start_ms": 8514,
+      "end_ms": 9531,
+      "voice_rms_db": -15.78,
+      "bed_rms_db": -33.74,
+      "difference_db": 17.97
+    },
+    {
+      "index": 10,
+      "start_ms": 9585,
+      "end_ms": 10854,
+      "voice_rms_db": -15.8,
+      "bed_rms_db": -33.76,
+      "difference_db": 17.96
+    },
+    {
+      "index": 11,
+      "start_ms": 10909,
+      "end_ms": 12293,
+      "voice_rms_db": -15.79,
+      "bed_rms_db": -33.78,
+      "difference_db": 17.99
+    },
+    {
+      "index": 12,
+      "start_ms": 12347,
+      "end_ms": 13290,
+      "voice_rms_db": -17.15,
+      "bed_rms_db": -34.5,
+      "difference_db": 17.35
+    },
+    {
+      "index": 13,
+      "start_ms": 13344,
+      "end_ms": 14751,
+      "voice_rms_db": -14.52,
+      "bed_rms_db": -32.45,
+      "difference_db": 17.93
+    },
+    {
+      "index": 14,
+      "start_ms": 14806,
+      "end_ms": 16398,
+      "voice_rms_db": -15.42,
+      "bed_rms_db": -33.26,
+      "difference_db": 17.84
+    },
+    {
+      "index": 15,
+      "start_ms": 16452,
+      "end_ms": 17268,
+      "voice_rms_db": -16.02,
+      "bed_rms_db": -33.89,
+      "difference_db": 17.87
+    },
+    {
+      "index": 16,
+      "start_ms": 17322,
+      "end_ms": 18613,
+      "voice_rms_db": -14.43,
+      "bed_rms_db": -32.36,
+      "difference_db": 17.93
+    },
+    {
+      "index": 17,
+      "start_ms": 18667,
+      "end_ms": 19516,
+      "voice_rms_db": -14.45,
+      "bed_rms_db": -37.82,
+      "difference_db": 23.37
+    },
+    {
+      "index": 18,
+      "start_ms": 19570,
+      "end_ms": 20602,
+      "voice_rms_db": -14.98,
+      "bed_rms_db": -31.56,
+      "difference_db": 16.57
+    },
+    {
+      "index": 19,
+      "start_ms": 20656,
+      "end_ms": 21284,
+      "voice_rms_db": -14.14,
+      "bed_rms_db": -31.94,
+      "difference_db": 17.81
+    },
+    {
+      "index": 20,
+      "start_ms": 21338,
+      "end_ms": 22519,
+      "voice_rms_db": -15.43,
+      "bed_rms_db": -33.28,
+      "difference_db": 17.85
+    },
+    {
+      "index": 21,
+      "start_ms": 22573,
+      "end_ms": 23775,
+      "voice_rms_db": -15.05,
+      "bed_rms_db": -32.89,
+      "difference_db": 17.84
+    },
+    {
+      "index": 22,
+      "start_ms": 23830,
+      "end_ms": 24918,
+      "voice_rms_db": -15.74,
+      "bed_rms_db": -33.52,
+      "difference_db": 17.78
+    },
+    {
+      "index": 23,
+      "start_ms": 24973,
+      "end_ms": 26594,
+      "voice_rms_db": -14.96,
+      "bed_rms_db": -32.87,
+      "difference_db": 17.91
+    }
+  ],
+  "worst_window_difference_db": 16.57,
+  "window_difference_pass": true
+}

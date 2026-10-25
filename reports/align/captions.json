@@ -1,0 +1,321 @@
+{
+  "method": "forced",
+  "sample_rate": 48000,
+  "captions": [
+    {
+      "line_id": "V1",
+      "group_index": 1,
+      "text": "义兴三害：",
+      "lines": [
+        "义兴三害："
+      ],
+      "char_range": [
+        0,
+        3
+      ],
+      "start_sample": 10560,
+      "end_sample": 56784,
+      "char_count": 4
+    },
+    {
+      "line_id": "V1",
+      "group_index": 2,
+      "text": "山中邅迹虎，",
+      "lines": [
+        "山中邅迹虎，"
+      ],
+      "char_range": [
+        4,
+        8
+      ],
+      "start_sample": 59376,
+      "end_sample": 118752,
+      "char_count": 5
+    },
+    {
+      "line_id": "V1",
+      "group_index": 3,
+      "text": "水中恶蛟，",
+      "lines": [
+        "水中恶蛟，"
+      ],
+      "char_range": [
+        9,
+        12
+      ],
+      "start_sample": 121392,
+      "end_sample": 163680,
+      "char_count": 4
+    },
+    {
+      "line_id": "V1",
+      "group_index": 4,
+      "text": "还有周处。",
+      "lines": [
+        "还有周处。"
+      ],
+      "char_range": [
+        13,
+        16
+      ],
+      "start_sample": 166272,
+      "end_sample": 198864,
+      "char_count": 4
+    },
+    {
+      "line_id": "V2",
+      "group_index": 1,
+      "text": "乡人劝周处",
+      "lines": [
+        "乡人劝周处"
+      ],
+      "char_range": [
+        0,
+        4
+      ],
+      "start_sample": 201456,
+      "end_sample": 251424,
+      "char_count": 5
+    },
+    {
+      "line_id": "V2",
+      "group_index": 2,
+      "text": "除虎斩蛟，",
+      "lines": [
+        "除虎斩蛟，"
+      ],
+      "char_range": [
+        5,
+        8
+      ],
+      "start_sample": 254016,
+      "end_sample": 292464,
+      "char_count": 4
+    },
+    {
+      "line_id": "V2",
+      "group_index": 3,
+      "text": "暗盼三害只余其一。",
+      "lines": [
+        "暗盼三害只余其一。"
+      ],
+      "char_range": [
+        9,
+        16
+      ],
+      "start_sample": 295056,
+      "end_sample": 370080,
+      "char_count": 8
+    },
+    {
+      "line_id": "V3",
+      "group_index": 1,
+      "text": "他刺虎，追蛟数十里，",
+      "lines": [
+        "他刺虎，追蛟数十里，"
+      ],
+      "char_range": [
+        0,
+        7
+      ],
+      "start_sample": 372720,
+      "end_sample": 457488,
+      "char_count": 8
+    },
+    {
+      "line_id": "V3",
+      "group_index": 2,
+      "text": "三日三夜未归。",
+      "lines": [
+        "三日三夜未归。"
+      ],
+      "char_range": [
+        8,
+        13
+      ],
+      "start_sample": 460080,
+      "end_sample": 520992,
+      "char_count": 6
+    },
+    {
+      "line_id": "V4",
+      "group_index": 1,
+      "text": "乡人以为他死了，",
+      "lines": [
+        "乡人以为他死了，"
+      ],
+      "char_range": [
+        0,
+        6
+      ],
+      "start_sample": 523632,
+      "end_sample": 590064,
+      "char_count": 7
+    },
+    {
+      "line_id": "V4",
+      "group_index": 2,
+      "text": "竟相庆贺。",
+      "lines": [
+        "竟相庆贺。"
+      ],
+      "char_range": [
+        7,
+        10
+      ],
+      "start_sample": 592656,
+      "end_sample": 637920,
+      "char_count": 4
+    },
+    {
+      "line_id": "V5",
+      "group_index": 1,
+      "text": "周处斩蛟归来，",
+      "lines": [
+        "周处斩蛟归来，"
+      ],
+      "char_range": [
+        0,
+        5
+      ],
+      "start_sample": 640512,
+      "end_sample": 708048,
+      "char_count": 6
+    },
+    {
+      "line_id": "V5",
+      "group_index": 2,
+      "text": "才知自己为人所患，",
+      "lines": [
+        "才知自己为人所患，"
+      ],
+      "char_range": [
+        6,
+        13
+      ],
+      "start_sample": 710688,
+      "end_sample": 787104,
+      "char_count": 8
+    },
+    {
+      "line_id": "V5",
+      "group_index": 3,
+      "text": "决意改过。",
+      "lines": [
+        "决意改过。"
+      ],
+      "char_range": [
+        14,
+        17
+      ],
+      "start_sample": 789696,
+      "end_sample": 828864,
+      "char_count": 4
+    },
+    {
+      "line_id": "V6",
+      "group_index": 1,
+      "text": "他寻二陆，",
+      "lines": [
+        "他寻二陆，"
+      ],
+      "char_range": [
+        0,
+        3
+      ],
+      "start_sample": 831456,
+      "end_sample": 893424,
+      "char_count": 4
+    },
+    {
+      "line_id": "V6",
+      "group_index": 2,
+      "text": "只见陆云，",
+      "lines": [
+        "只见陆云，"
+      ],
+      "char_range": [
+        4,
+        7
+      ],
+      "start_sample": 896016,
+      "end_sample": 936768,
+      "char_count": 4
+    },
+    {
+      "line_id": "V6",
+      "group_index": 3,
+      "text": "忧年已蹉跎。",
+      "lines": [
+        "忧年已蹉跎。"
+      ],
+      "char_range": [
+        8,
+        12
+      ],
+      "start_sample": 939360,
+      "end_sample": 988896,
+      "char_count": 5
+    },
+    {
+      "line_id": "V7",
+      "group_index": 1,
+      "text": "陆云说：人患志之不立，",
+      "lines": [
+        "陆云说：人患志之不立，"
+      ],
+      "char_range": [
+        0,
+        8
+      ],
+      "start_sample": 991488,
+      "end_sample": 1080912,
+      "char_count": 9
+    },
+    {
+      "line_id": "V7",
+      "group_index": 2,
+      "text": "何忧令名不彰！",
+      "lines": [
+        "何忧令名不彰！"
+      ],
+      "char_range": [
+        9,
+        14
+      ],
+      "start_sample": 1083504,
+      "end_sample": 1141200,
+      "char_count": 6
+    },
+    {
+      "line_id": "V8",
+      "group_index": 1,
+      "text": "周处遂改励，",
+      "lines": [
+        "周处遂改励，"
+      ],
+      "char_range": [
+        0,
+        4
+      ],
+      "start_sample": 1143840,
+      "end_sample": 1196064,
+      "char_count": 5
+    },
+    {
+      "line_id": "V8",
+      "group_index": 2,
+      "text": "终为忠臣孝子。",
+      "lines": [
+        "终为忠臣孝子。"
+      ],
+      "char_range": [
+        5,
+        10
+      ],
+      "start_sample": 1198704,
+      "end_sample": 1276512,
+      "char_count": 6
+    }
+  ]
+}

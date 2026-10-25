@@ -1,0 +1,87 @@
+test_bgm_is_at_least_thirty_seconds (test_audio.TestAudioFiles) ... ok
+test_bgm_rights_are_documented (test_audio.TestAudioFiles) ... ok
+test_files_exist (test_audio.TestAudioFiles) ... ok
+test_mix_sample_rate_and_channels (test_audio.TestAudioFiles) ... ok
+test_every_voice_window_is_measured (test_audio.TestAudioMeasure) ... ok
+test_mix_true_peak (test_audio.TestAudioMeasure) ... ok
+test_music_tail_reserved (test_audio.TestAudioMeasure) ... ok
+test_voice_loudness (test_audio.TestAudioMeasure) ... ok
+test_voice_windows_are_audible_over_bed (test_audio.TestAudioMeasure) ... ok
+test_disabled_state_semantics (test_preview.TestPreviewAccessibility) ... ok
+test_focus_visible_style (test_preview.TestPreviewAccessibility) ... ok
+test_icon_buttons_have_aria_label (test_preview.TestPreviewAccessibility) ... ok
+test_icons_are_inline_svg (test_preview.TestPreviewAccessibility) ... ok
+test_keyboard_support (test_preview.TestPreviewAccessibility) ... ok
+test_no_emoji (test_preview.TestPreviewAccessibility) ... ok
+test_touch_target_minimum (test_preview.TestPreviewAccessibility) ... ok
+test_deliver_preview_copy_exists (test_preview.TestPreviewAssets) ... ok
+test_narration_loaded_from_delivery (test_preview.TestPreviewAssets) ... ok
+test_no_external_resource (test_preview.TestPreviewOffline) ... ok
+test_no_generation_api_call (test_preview.TestPreviewOffline) ... ok
+test_five_breakpoints (test_preview.TestPreviewResponsive) ... ok
+test_hover_only_under_media_query (test_preview.TestPreviewResponsive) ... ok
+test_no_horizontal_scroll_risk (test_preview.TestPreviewResponsive) ... ok
+test_reduced_motion (test_preview.TestPreviewResponsive) ... ok
+test_single_column_narrow (test_preview.TestPreviewResponsive) ... ok
+test_empty_state_gives_build_entry (test_preview.TestPreviewStates) ... ok
+test_error_state_is_alert (test_preview.TestPreviewStates) ... ok
+test_four_states_present (test_preview.TestPreviewStates) ... ok
+test_loading_state_offers_cancel (test_preview.TestPreviewStates) ... ok
+test_every_entry_is_a_still_not_a_video (test_provenance.TestAssetManifest) ... ok
+test_fourteen_stills (test_provenance.TestAssetManifest) ... ok
+test_image_files_exist_and_match_hash (test_provenance.TestAssetManifest) ... ok
+test_manifest_exists (test_provenance.TestAssetManifest) ... ok
+test_no_temporary_signed_urls_in_manifest (test_provenance.TestAssetManifest) ... ok
+test_overlays_are_procedural_and_present (test_provenance.TestAssetManifest) ... ok
+test_deliver_files_exist_for_finished_step (test_provenance.TestDeliverableHygiene) ... ok
+test_deliver_has_no_secret_material (test_provenance.TestDeliverableHygiene)
+扫描真实密钥值与鉴权串；变量名（如 VOLCENGINE_TTS_*）是说明，不算泄露。 ... ok
+test_no_video_file_in_project_assets (test_provenance.TestNoVideoMaterial) ... ok
+test_no_video_generation_api_in_scripts (test_provenance.TestNoVideoMaterial)
+检查的是「调用」，不是字样：manifest 字段 video_generation_used 是声明，不算调用。 ... ok
+test_story_images_map_to_story_json (test_provenance.TestNoVideoMaterial) ... ok
+test_ending_is_the_original_ending (test_story.TestLiteralAccuracy) ... ok
+test_luji_is_never_in_the_room (test_story.TestLiteralAccuracy) ... ok
+test_no_white_forehead_tiger (test_story.TestLiteralAccuracy) ... ok
+test_three_days_and_three_nights_kept (test_story.TestLiteralAccuracy) ... ok
+test_v7_keeps_the_original_quotation (test_story.TestLiteralAccuracy) ... ok
+test_zhou_chu_is_mentioned_as_the_third_threat (test_story.TestLiteralAccuracy) ... ok
+test_all_nodes_present (test_story.TestNarrationStructure) ... ok
+test_every_line_maps_to_known_scenes (test_story.TestNarrationStructure) ... ok
+test_every_scene_is_covered_by_some_line (test_story.TestNarrationStructure) ... ok
+test_exactly_eight_lines (test_story.TestNarrationStructure) ... ok
+test_line_ids_are_v1_to_v8 (test_story.TestNarrationStructure) ... ok
+test_phrase_chunks_cover_script_a (test_story.TestNarrationStructure) ... ok
+test_anchor_keys_unique_and_resolvable (test_story.TestScenes) ... ok
+test_every_scene_has_at_least_one_effect (test_story.TestScenes) ... ok
+test_fourteen_images (test_story.TestScenes) ... ok
+test_insert_images_belong_to_their_scene (test_story.TestScenes) ... ok
+test_no_still_image_held_over_two_point_three_seconds (test_story.TestScenes)
+A04：静止同图不可连续超过 2.3s；单镜最长 3.2s（声明了插入镜的镜头按子镜计）。 ... ok
+test_scene_windows_are_ordered_and_cover_thirty_seconds (test_story.TestScenes) ... ok
+test_twelve_scenes (test_story.TestScenes) ... ok
+test_audio_targets (test_story.TestTokens) ... ok
+test_caption_limits (test_story.TestTokens) ... ok
+test_safe_area (test_story.TestTokens) ... ok
+test_video_format (test_story.TestTokens) ... ok
+test_caption_boundaries_within_zero_to_thirty_seconds (test_timing.TestCaptions) ... ok
+test_caption_count (test_timing.TestCaptions) ... ok
+test_caption_lines_fit_the_safe_area (test_timing.TestCaptions) ... ok
+test_caption_text_comes_from_the_script (test_timing.TestCaptions) ... ok
+test_captions_do_not_overlap (test_timing.TestCaptions) ... ok
+test_key_phrases_are_not_split (test_timing.TestCaptions) ... ok
+test_alignment_method_is_recorded (test_timing.TestCharCues) ... ok
+test_all_cues_inside_the_timeline (test_timing.TestCharCues) ... ok
+test_cues_are_monotonic_and_valid (test_timing.TestCharCues) ... ok
+test_every_han_character_has_a_cue (test_timing.TestCharCues) ... ok
+test_every_scene_has_at_least_one_effect (test_timing.TestSceneTimeline) ... ok
+test_no_still_image_held_over_two_point_three_seconds (test_timing.TestSceneTimeline) ... ok
+test_shots_cover_the_whole_frame_range (test_timing.TestSceneTimeline) ... ok
+test_twelve_scenes_and_at_least_twelve_distinct_images (test_timing.TestSceneTimeline) ... ok
+test_srt_exists_and_matches_caption_count (test_timing.TestSrt) ... ok
+test_srt_times_are_ordered_and_in_range (test_timing.TestSrt) ... ok
+
+----------------------------------------------------------------------
+Ran 79 tests in 0.075s
+
+OK
