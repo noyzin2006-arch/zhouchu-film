@@ -1,0 +1,199 @@
+{
+  "version": "1.0.0",
+  "name": "周处除三害 · 绢本设色",
+  "source": "handoff/plans/LOOP-001.md §3.1（规划案定死，不可自改）",
+  "color": {
+    "bg": {
+      "base": "#101813",
+      "surface": "#1D2921",
+      "raised": "#2B352B",
+      "caption": "#101813"
+    },
+    "text": {
+      "primary": "#F5E8CC",
+      "secondary": "#DFCEAC",
+      "muted": "#C7AF80",
+      "inverse": "#101813"
+    },
+    "border": {
+      "strong": "#94856D",
+      "subtle": "#C7AF80"
+    },
+    "accent": {
+      "gold": "#D4A452",
+      "cinnabar": "#D84A3B"
+    },
+    "semantic": {
+      "ok": "#9BBAA8",
+      "warning": "#D4A452",
+      "error": "#F29D91",
+      "info": "#AFA796"
+    },
+    "focus": "#F5E8CC"
+  },
+  "opacity": {
+    "caption": 0.92
+  },
+  "type": {
+    "cn": {
+      "title": "Songti SC Black",
+      "body": "Noto Sans CJK SC Bold",
+      "annotation": "Kaiti SC Regular"
+    },
+    "cn.stack": "\"Noto Sans CJK SC\", \"Hiragino Sans GB\", \"Heiti SC\", sans-serif",
+    "title.stack": "\"Songti SC\", \"STSong\", \"Noto Serif CJK SC\", serif",
+    "latin.stack": "Georgia, \"Noto Sans\", Arial, sans-serif"
+  },
+  "typeScale": {
+    "annotation": { "px": 24, "ratio": 1.25 },
+    "small": { "px": 30, "ratio": 1.25 },
+    "body": { "px": 38, "ratio": 1.25 },
+    "caption": { "px": 48, "ratio": 1.25 },
+    "subhead": { "px": 60, "ratio": 1.25 },
+    "title": { "px": 75, "ratio": 1.25 },
+    "hook": { "px": 94, "ratio": 1.25 }
+  },
+  "leading": {
+    "title": 1.2,
+    "body": 1.6,
+    "caption": 1.54,
+    "compact": 1.3,
+    "captionLetterSpacingPx": 1,
+    "bodyMaxChineseCharsPerLine": 40
+  },
+  "grid": {
+    "unitPx": 4,
+    "spacingPx": [4, 8, 12, 16, 24, 32, 48, 64, 96],
+    "labelPaddingPx": 16,
+    "captionPaddingPx": 24,
+    "blockPaddingPx": 24,
+    "chapterPaddingPx": 48
+  },
+  "radius": {
+    "tag": "4px",
+    "button": "8px",
+    "card": "12px",
+    "panel": "16px",
+    "pill": "999px"
+  },
+  "border": {
+    "normal": "1px solid #94856D",
+    "active": "2px solid #D4A452"
+  },
+  "shadow": {
+    "0": "none",
+    "1": "0 2px 6px #00000033",
+    "2": "0 8px 24px #0000003D",
+    "3": "0 16px 36px #00000052",
+    "4": "0 24px 48px #00000066"
+  },
+  "z": {
+    "scene": 0,
+    "ink": 10,
+    "labels": 20,
+    "captions": 30,
+    "toast": 50,
+    "modal": 60
+  },
+  "motion": {
+    "durationMs": { "micro": 120, "switch": 220, "scene": 420 },
+    "ease": {
+      "enter": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "exit": "cubic-bezier(0.4, 0, 1, 1)",
+      "camera": "cubic-bezier(0.45, 0, 0.55, 1)"
+    },
+    "camera": {
+      "scaleFrom": 1.06,
+      "scaleTo": 1.13,
+      "maxTranslatePx": 28,
+      "crossfadeMs": [180, 260],
+      "inkRevealMs": 360,
+      "maxFlashPerSecond": 2
+    }
+  },
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 900,
+    "durationSeconds": 30.0,
+    "pixelFormat": "yuv420p",
+    "colorSpace": "sRGB",
+    "codec": "h264",
+    "audioCodec": "aac",
+    "audioSampleRate": 48000,
+    "audioChannels": 2,
+    "sourceImageWidth": 1536,
+    "sourceImageHeight": 2752
+  },
+  "audio": {
+    "voiceLufs": -16,
+    "voiceLufsTolerance": 1,
+    "bedRmsBelowVoiceDb": 18,
+    "bedRmsBelowVoiceDbMin": 12,
+    "truePeakDb": -1.5,
+    "bgmLufs": -25,
+    "headPaddingMs": 220,
+    "lineGapMs": 80,
+    "voiceMustEndBySeconds": 28.7,
+    "musicTailSeconds": 1.3
+  },
+  "safe": {
+    "visibleTextX": [96, 878],
+    "captionBox": { "left": 102, "right": 202, "top": 1510, "bottom": 1640 },
+    "noCriticalTextTopPx": 180,
+    "noCriticalTextBottomPx": 280
+  },
+  "caption": {
+    "fontFamily": "Noto Sans CJK SC",
+    "fontWeight": 700,
+    "fontSizePx": 48,
+    "lineHeight": 1.54,
+    "letterSpacingPx": 1,
+    "maxChineseCharsPerLine": 13,
+    "maxLines": 2,
+    "minVisibleMs": 650,
+    "fadeInMs": 80,
+    "paddingX": 24,
+    "paddingY": 18,
+    "radius": "12px",
+    "background": "#101813",
+    "backgroundOpacity": 0.92,
+    "color": "#F5E8CC",
+    "minContrastRatio": 4.5
+  },
+  "annotation": {
+    "fontFamily": "Kaiti SC",
+    "fontSizePx": 30,
+    "boxX": [96, 440],
+    "boxY": [1140, 1310],
+    "minVisibleMs": 1200,
+    "fadeInMs": 360,
+    "sealRadius": "4px",
+    "sealColor": "#D84A3B"
+  },
+  "focus": {
+    "outlineWidth": "2px",
+    "outlineColor": "#F5E8CC",
+    "outlineOffset": "3px"
+  },
+  "preview": {
+    "playerMaxWidthPx": 360,
+    "playerAspectRatio": "9 / 16",
+    "buttonMinHeightPx": 44,
+    "buttonMinWidthPx": 100,
+    "containerMaxWidthPx": 1120,
+    "contentMaxWidthPx": 960,
+    "breakpoints": {
+      "xl": 1440,
+      "lg": 1024,
+      "md": 768,
+      "sm": 481,
+      "xs": 480
+    },
+    "gutters": { "xl": 64, "lg": 48, "md": 32, "sm": 24, "xs": 16 },
+    "columns": { "lg": [380, "1fr"], "md": [320, "1fr"] },
+    "iconSizePx": 24,
+    "iconStrokeWidthPx": 2
+  }
+}

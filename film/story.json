@@ -1,0 +1,696 @@
+{
+  "version": "1.0.0",
+  "source": "handoff/plans/LOOP-001.md §4–§5（规划案定死，台词与镜头不得临场改写）",
+  "title": "周处除三害",
+  "subtitle": "《世说新语·自新》",
+  "stylePrefix": "Vertical 9:16 Chinese Jin-era Jiangnan illustrated moral fable, handmade silk-scroll painting, expressive ink wash and meticulous figure linework, deep pine-green, ochre, muted parchment, restrained cinnabar, archival silk grain, layered foreground/middleground/background, dramatic silhouette. Consistent Zhou Chu: lean young Chinese man, tied black hair, deep green crossed-collar robe with narrow sleeves, brown waist sash and straight sword. No embedded words, no logo, no watermarks, no Japanese armor, no modern architecture, no photorealism, no gore.",
+  "narration": {
+    "scriptA": [
+      {
+        "id": "V1",
+        "text": "义兴三害：山中邅迹虎，水中恶蛟，还有周处。",
+        "node": "three-threats",
+        "scene_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04"
+        ]
+      },
+      {
+        "id": "V2",
+        "text": "乡人劝周处除虎斩蛟，暗盼三害只余其一。",
+        "node": "provocation",
+        "scene_ids": [
+          "S05"
+        ]
+      },
+      {
+        "id": "V3",
+        "text": "他刺虎，追蛟数十里，三日三夜未归。",
+        "node": "battle",
+        "scene_ids": [
+          "S06",
+          "S07",
+          "S08"
+        ]
+      },
+      {
+        "id": "V4",
+        "text": "乡人以为他死了，竟相庆贺。",
+        "node": "celebration",
+        "scene_ids": [
+          "S09"
+        ]
+      },
+      {
+        "id": "V5",
+        "text": "周处斩蛟归来，才知自己为人所患，决意改过。",
+        "node": "realization",
+        "scene_ids": [
+          "S10"
+        ]
+      },
+      {
+        "id": "V6",
+        "text": "他寻二陆，只见陆云，忧年已蹉跎。",
+        "node": "counsel",
+        "scene_ids": [
+          "S11"
+        ]
+      },
+      {
+        "id": "V7",
+        "text": "陆云说：人患志之不立，何忧令名不彰！",
+        "node": "counsel",
+        "scene_ids": [
+          "S11"
+        ]
+      },
+      {
+        "id": "V8",
+        "text": "周处遂改励，终为忠臣孝子。",
+        "node": "reform",
+        "scene_ids": [
+          "S12"
+        ]
+      }
+    ],
+    "scriptB": [
+      {
+        "id": "V1",
+        "text": "义兴三害：虎、蛟、还有周处。",
+        "node": "three-threats",
+        "scene_ids": [
+          "S01",
+          "S02",
+          "S03",
+          "S04"
+        ]
+      },
+      {
+        "id": "V2",
+        "text": "乡人劝他除虎斩蛟，盼只剩一害。",
+        "node": "provocation",
+        "scene_ids": [
+          "S05"
+        ]
+      },
+      {
+        "id": "V3",
+        "text": "刺虎追蛟，三日三夜未归。",
+        "node": "battle",
+        "scene_ids": [
+          "S06",
+          "S07",
+          "S08"
+        ]
+      },
+      {
+        "id": "V4",
+        "text": "乡人误以为他死了，纷纷庆贺。",
+        "node": "celebration",
+        "scene_ids": [
+          "S09"
+        ]
+      },
+      {
+        "id": "V5",
+        "text": "周处斩蛟归来，才知自己招人厌恶。",
+        "node": "realization",
+        "scene_ids": [
+          "S10"
+        ]
+      },
+      {
+        "id": "V6",
+        "text": "他寻二陆，只见陆云，欲改过又恐太迟。",
+        "node": "counsel",
+        "scene_ids": [
+          "S11"
+        ]
+      },
+      {
+        "id": "V7",
+        "text": "陆云劝：人患志之不立，何忧令名不彰！",
+        "node": "counsel",
+        "scene_ids": [
+          "S11"
+        ]
+      },
+      {
+        "id": "V8",
+        "text": "周处遂改励，终为忠臣孝子。",
+        "node": "reform",
+        "scene_ids": [
+          "S12"
+        ]
+      }
+    ],
+    "phraseChunks": [
+      [
+        "义兴三害",
+        "山中邅迹虎",
+        "水中恶蛟",
+        "还有周处"
+      ],
+      [
+        "乡人劝周处",
+        "除虎斩蛟",
+        "暗盼三害只余其一"
+      ],
+      [
+        "他刺虎",
+        "追蛟数十里",
+        "三日三夜未归"
+      ],
+      [
+        "乡人以为他死了",
+        "竟相庆贺"
+      ],
+      [
+        "周处斩蛟归来",
+        "才知自己为人所患",
+        "决意改过"
+      ],
+      [
+        "他寻二陆",
+        "只见陆云",
+        "忧年已蹉跎"
+      ],
+      [
+        "陆云说",
+        "人患志之不立",
+        "何忧令名不彰"
+      ],
+      [
+        "周处遂改励",
+        "终为忠臣孝子"
+      ]
+    ]
+  },
+  "images": [
+    {
+      "id": "S01",
+      "output_path": "film/assets/images/S01.jpg",
+      "scene_id": "S01",
+      "subject": "暗绢纸底，青年背影隐现于正中，山中虎影、水中蛟影、人影三组墨痕若隐若现；左上角大片负空间"
+    },
+    {
+      "id": "S02",
+      "output_path": "film/assets/images/S02.jpg",
+      "scene_id": "S02",
+      "subject": "险恶山林石径，一只步态不匀、前腿微跛的猛虎，赭金斑纹，额上无白色斑纹"
+    },
+    {
+      "id": "S03",
+      "output_path": "film/assets/images/S03.jpg",
+      "scene_id": "S03",
+      "subject": "江南深潭与石拱桥，水面下隐约可见蛇形蛟影翻涌，无龙翼无角"
+    },
+    {
+      "id": "S04",
+      "output_path": "film/assets/images/S04.jpg",
+      "scene_id": "S04",
+      "subject": "乡间村街，村民侧身回避，青衣周处背对镜头佩剑而行"
+    },
+    {
+      "id": "S05",
+      "output_path": "film/assets/images/S05.jpg",
+      "scene_id": "S05",
+      "subject": "竹帘之后数位乡人隔帘劝说，周处半侧身聆听，帘外冷光"
+    },
+    {
+      "id": "S06",
+      "output_path": "film/assets/images/S06.jpg",
+      "scene_id": "S06",
+      "subject": "竹林山口，青年与猛虎错位交锋的剪影，朱砂笔锋斜切，无血浆"
+    },
+    {
+      "id": "S07",
+      "output_path": "film/assets/images/S07.jpg",
+      "scene_id": "S07",
+      "subject": "洪水中追逐蛟影的青衣青年，深蓝墨绿飞溅的水势"
+    },
+    {
+      "id": "S07B",
+      "output_path": "film/assets/images/S07B.jpg",
+      "scene_id": "S07",
+      "subject": "水浪、衣袖与剑锋的特写局部，黛青水痕与飞沫，用作S07内插"
+    },
+    {
+      "id": "S08",
+      "output_path": "film/assets/images/S08.jpg",
+      "scene_id": "S08",
+      "subject": "同一段水道在雨云与晨曦两种天光下的对照，水墨层次分明"
+    },
+    {
+      "id": "S09",
+      "output_path": "film/assets/images/S09.jpg",
+      "scene_id": "S09",
+      "subject": "山乡街口，村民彼此拱手庆贺，周处不在画面中，不做丧礼或宴席"
+    },
+    {
+      "id": "S10",
+      "output_path": "film/assets/images/S10.jpg",
+      "scene_id": "S10",
+      "subject": "水岸归来，湿衣青年隔河望向对岸乡人，大片孤独留白"
+    },
+    {
+      "id": "S11",
+      "output_path": "film/assets/images/S11.jpg",
+      "scene_id": "S11",
+      "subject": "吴地质朴书斋，室内严格只有周处与陆云两人相对而坐，无第三人"
+    },
+    {
+      "id": "S11B",
+      "output_path": "film/assets/images/S11B.jpg",
+      "scene_id": "S11",
+      "subject": "竹简、窗影与两人手势的局部，窗外远山，画面中无可读文字"
+    },
+    {
+      "id": "S12",
+      "output_path": "film/assets/images/S12.jpg",
+      "scene_id": "S12",
+      "subject": "青衣背剑青年走向雨后晴明的山路，背影与大面积落款负空间"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "三害",
+      "expected_start_sec": 0.0,
+      "expected_end_sec": 1.4,
+      "image_ids": [
+        "S01"
+      ],
+      "anchor": {
+        "line_id": "V1",
+        "phrase": "义兴三害",
+        "offset_sec": 0.0
+      },
+      "motion": {
+        "scale_from": 1.06,
+        "scale_to": 1.09,
+        "x_from": 0,
+        "x_to": 14,
+        "y_from": 0,
+        "y_to": 0
+      },
+      "effect_ids": [
+        "ink-reveal",
+        "hook-title"
+      ],
+      "annotation": null,
+      "overlay_text": "三害，最凶的是人。"
+    },
+    {
+      "id": "S02",
+      "title": "邅迹虎",
+      "expected_start_sec": 1.4,
+      "expected_end_sec": 3.4,
+      "image_ids": [
+        "S02"
+      ],
+      "anchor": {
+        "line_id": "V1",
+        "phrase": "山中邅迹虎",
+        "offset_sec": 0.0
+      },
+      "motion": {
+        "scale_from": 1.08,
+        "scale_to": 1.12,
+        "x_from": 0,
+        "x_to": 0,
+        "y_from": 0,
+        "y_to": -16
+      },
+      "effect_ids": [
+        "mist-drift",
+        "annotation-seal"
+      ],
+      "annotation": {
+        "text": "邅迹虎｜跛脚虎",
+        "min_visible_ms": 1200,
+        "fade_in_ms": 360
+      },
+      "overlay_text": null
+    },
+    {
+      "id": "S03",
+      "title": "水中蛟",
+      "expected_start_sec": 3.4,
+      "expected_end_sec": 5.0,
+      "image_ids": [
+        "S03"
+      ],
+      "anchor": {
+        "line_id": "V1",
+        "phrase": "水中恶蛟",
+        "offset_sec": 0.0
+      },
+      "motion": {
+        "scale_from": 1.07,
+        "scale_to": 1.11,
+        "x_from": 20,
+        "x_to": -20,
+        "y_from": 0,
+        "y_to": 0
+      },
+      "effect_ids": [
+        "ink-wave"
+      ],
+      "annotation": null,
+      "overlay_text": null
+    },
+    {
+      "id": "S04",
+      "title": "周处",
+      "expected_start_sec": 5.0,
+      "expected_end_sec": 6.8,
+      "image_ids": [
+        "S04"
+      ],
+      "anchor": {
+        "line_id": "V1",
+        "phrase": "还有周处",
+        "offset_sec": 0.0
+      },
+      "motion": {
+        "scale_from": 1.11,
+        "scale_to": 1.07,
+        "x_from": 0,
+        "x_to": 0,
+        "y_from": 0,
+        "y_to": 0
+      },
+      "effect_ids": [
+        "foreground-parallax",
+        "chapter-seal"
+      ],
+      "annotation": {
+        "text": "周处",
+        "seal": true,
+        "min_visible_ms": 1200,
+        "fade_in_ms": 360
+      },
+      "overlay_text": null
+    },
+    {
+      "id": "S05",
+      "title": "借刀",
+      "expected_start_sec": 6.8,
+      "expected_end_sec": 8.8,
+      "image_ids": [
+        "S05"
+      ],
+      "anchor": {
+        "line_id": "V2",
+        "phrase": "乡人劝周处",
+        "offset_sec": 0.0
+      },
+      "motion": {
+        "scale_from": 1.06,
+        "scale_to": 1.1,
+        "x_from": -18,
+        "x_to": 12,
+        "y_from": 0,
+        "y_to": 0
+      },
+      "effect_ids": [
+        "focus-mask",
+        "foreground-parallax"
+      ],
+      "annotation": null,
+      "overlay_text": null
+    },
+    {
+      "id": "S06",
+      "title": "刺虎",
+      "expected_start_sec": 8.8,
+      "expected_end_sec": 11.0,
+      "image_ids": [
+        "S06"
+      ],
+      "anchor": {
+        "line_id": "V3",
+        "phrase": "他刺虎",
+        "offset_sec": 0.0
+      },
+      "motion": {
+        "scale_from": 1.1,
+        "scale_to": 1.13,
+        "x_from": 0,
+        "x_to": 0,
+        "y_from": 14,
+        "y_to": -10
+      },
+      "effect_ids": [
+        "cinnabar-slash",
+        "ink-splash"
+      ],
+      "annotation": null,
+      "overlay_text": null
+    },
+    {
+      "id": "S07",
+      "title": "追蛟",
+      "expected_start_sec": 11.0,
+      "expected_end_sec": 13.9,
+      "image_ids": [
+        "S07",
+        "S07B"
+      ],
+      "anchor": {
+        "line_id": "V3",
+        "phrase": "追蛟数十里",
+        "offset_sec": 0.0
+      },
+      "inserts": [
+        {
+          "image_id": "S07B",
+          "line_id": "V3",
+          "phrase": "追蛟数十里",
+          "offset_sec": 1.1,
+          "duration_sec": 0.9,
+          "expected_start_sec": 12.1
+        }
+      ],
+      "motion": {
+        "scale_from": 1.07,
+        "scale_to": 1.12,
+        "x_from": 16,
+        "x_to": -14,
+        "y_from": 0,
+        "y_to": 0
+      },
+      "effect_ids": [
+        "rain-lines",
+        "water-parallax",
+        "insert-cut"
+      ],
+      "annotation": null,
+      "overlay_text": null
+    },
+    {
+      "id": "S08",
+      "title": "三日三夜",
+      "expected_start_sec": 13.9,
+      "expected_end_sec": 16.5,
+      "image_ids": [
+        "S08"
+      ],
+      "anchor": {
+        "line_id": "V3",
+        "phrase": "三日三夜未归",
+        "offset_sec": 0.0
+      },
+      "motion": {
+        "scale_from": 1.06,
+        "scale_to": 1.1,
+        "x_from": 0,
+        "x_to": 0,
+        "y_from": 0,
+        "y_to": 0
+      },
+      "effect_ids": [
+        "ink-transition",
+        "big-kanji"
+      ],
+      "annotation": {
+        "text": "三日三夜",
+        "big_kanji": true,
+        "min_visible_ms": 1200,
+        "fade_in_ms": 360
+      },
+      "overlay_text": null
+    },
+    {
+      "id": "S09",
+      "title": "相庆",
+      "expected_start_sec": 16.5,
+      "expected_end_sec": 18.9,
+      "image_ids": [
+        "S09"
+      ],
+      "anchor": {
+        "line_id": "V4",
+        "phrase": "乡人以为他死了",
+        "offset_sec": 0.0
+      },
+      "motion": {
+        "scale_from": 1.1,
+        "scale_to": 1.06,
+        "x_from": 0,
+        "x_to": 0,
+        "y_from": 0,
+        "y_to": 0
+      },
+      "effect_ids": [
+        "music-cut",
+        "foreground-parallax"
+      ],
+      "annotation": null,
+      "overlay_text": null
+    },
+    {
+      "id": "S10",
+      "title": "知耻",
+      "expected_start_sec": 18.9,
+      "expected_end_sec": 22.1,
+      "image_ids": [
+        "S10"
+      ],
+      "anchor": {
+        "line_id": "V5",
+        "phrase": "周处斩蛟归来",
+        "offset_sec": 0.0
+      },
+      "motion": {
+        "scale_from": 1.06,
+        "scale_to": 1.08,
+        "x_from": 12,
+        "x_to": -8,
+        "y_from": 0,
+        "y_to": 0
+      },
+      "effect_ids": [
+        "desaturate",
+        "emotional-hold"
+      ],
+      "annotation": null,
+      "overlay_text": null
+    },
+    {
+      "id": "S11",
+      "title": "寻陆云",
+      "expected_start_sec": 22.1,
+      "expected_end_sec": 27.8,
+      "image_ids": [
+        "S11",
+        "S11B"
+      ],
+      "anchor": {
+        "line_id": "V6",
+        "phrase": "他寻二陆",
+        "offset_sec": 0.0
+      },
+      "inserts": [
+        {
+          "image_id": "S11B",
+          "line_id": "V7",
+          "phrase": "陆云说",
+          "offset_sec": 0.0,
+          "duration_sec": 1.8,
+          "expected_start_sec": 24.9
+        }
+      ],
+      "motion": {
+        "scale_from": 1.07,
+        "scale_to": 1.09,
+        "x_from": 0,
+        "x_to": 0,
+        "y_from": 10,
+        "y_to": -10
+      },
+      "effect_ids": [
+        "cross-dissolve",
+        "annotation-seal",
+        "foreground-parallax"
+      ],
+      "annotation": {
+        "text": "清河｜陆云",
+        "min_visible_ms": 1200,
+        "fade_in_ms": 360
+      },
+      "overlay_text": null
+    },
+    {
+      "id": "S12",
+      "title": "改励",
+      "expected_start_sec": 27.8,
+      "expected_end_sec": 30.0,
+      "image_ids": [
+        "S12"
+      ],
+      "anchor": {
+        "line_id": "V8",
+        "phrase": "周处遂改励",
+        "offset_sec": 0.0
+      },
+      "motion": {
+        "scale_from": 1.06,
+        "scale_to": 1.1,
+        "x_from": 0,
+        "x_to": 18,
+        "y_from": 0,
+        "y_to": -12
+      },
+      "effect_ids": [
+        "ink-fade",
+        "chapter-seal",
+        "final-line"
+      ],
+      "annotation": {
+        "text": "自新",
+        "seal": true,
+        "min_visible_ms": 1200,
+        "fade_in_ms": 360
+      },
+      "overlay_text": "终为忠臣孝子"
+    }
+  ],
+  "factRules": {
+    "sourceText": "《世说新语·自新》第十五（南朝宋刘义庆）",
+    "mustCover": [
+      "three-threats",
+      "provocation",
+      "battle",
+      "celebration",
+      "realization",
+      "counsel",
+      "reform"
+    ],
+    "literalPhrases": [
+      "三日三夜",
+      "人患志之不立",
+      "终为忠臣孝子"
+    ],
+    "forbidden": [
+      "白额虎",
+      "陆机在场",
+      "师徒",
+      "女子角色",
+      "官职升迁",
+      "血腥",
+      "日式铠甲",
+      "现代建筑"
+    ],
+    "notes": [
+      "邅迹虎为跛脚虎，片中文字只写「邅迹虎（跛脚虎）」，不用「白额虎」替代。",
+      "与蛟俱行数十里是原文特征，即使启用短稿 B 也须在 S07 旁注保留。",
+      "对话者是陆云（清河内史），不是陆机（平原内史）。",
+      "周处结局为「力战而没，终为忠臣孝子」，不得添加原著没有的情节。"
+    ]
+  }
+}

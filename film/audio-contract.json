@@ -1,0 +1,112 @@
+{
+  "version": "1.0.0",
+  "source": "handoff/plans/LOOP-001.md §5.3–§5.7",
+  "tts": {
+    "provider": "volcengine-doubao",
+    "endpoint": "https://openspeech.bytedance.com/api/v1/tts",
+    "env": {
+      "app_id": "VOLCENGINE_TTS_APP_ID",
+      "access_token": "VOLCENGINE_TTS_ACCESS_TOKEN",
+      "cluster": "VOLCENGINE_TTS_CLUSTER",
+      "voice_type": "VOLCENGINE_TTS_VOICE_TYPE"
+    },
+    "authorizationHeaderFormat": "Bearer;{access_token}",
+    "requiredBodyKeys": ["app.appid", "app.token", "app.cluster", "request.reqid", "request.text", "audio.voice_type", "audio.encoding"],
+    "encoding": "mp3",
+    "speedRatio": 1.0,
+    "successCode": 3000,
+    "maxAttempts": 3,
+    "fallback": {
+      "provider": "macos-say",
+      "command": "say -v Tingting",
+      "note": "声型与正式播音有差异，须写入 known-limit 并重测 LUFS 与句长。"
+    }
+  },
+  "timeline": {
+    "sampleRate": 48000,
+    "channels": 1,
+    "headPaddingMs": 220,
+    "lineGapMs": 80,
+    "phraseGapMs": 75,
+    "phraseGapRangeMs": [60, 90],
+    "silenceTrimThresholdDbfs": -48,
+    "minTailSilenceMs": 100,
+    "voiceMustEndBySec": 28.7,
+    "targetVoiceEndSec": 28.48,
+    "maxTempoFactor": 1.08,
+    "shortScript": "B"
+  },
+  "alignment": {
+    "primary": {
+      "method": "whisperx-forced-alignment",
+      "knownText": true,
+      "model": "jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+      "returnCharAlignments": true,
+      "device": "cpu",
+      "computeType": "int8",
+      "hfEndpointFallback": "https://hf-mirror.com",
+      "downloadTimeoutMin": 10,
+      "firstLineProcessTimeoutMin": 20
+    },
+    "fallback": {
+      "method": "phrase-tts-boundaries",
+      "description": "23 组短语逐组 TTS，每组 WAV 样本首尾即字幕首尾；组内字级先按每汉字均匀分配作估计，再低速逐字修正并标 reviewed=true。",
+      "uniformEstimateAllowed": true,
+      "uniformEstimateIsNotVerified": true
+    },
+    "review": {
+      "requiredAnchorCount": 6,
+      "anchorPhrases": ["邅迹虎", "三日三夜", "乡人相庆", "陆云", "志之不立", "忠臣孝子"],
+      "maxGroupOffsetMs": 200,
+      "reviewSpeed": 0.5,
+      "anchorSpeed": 0.25,
+      "csv": "reports/word-alignment-review.csv"
+    }
+  },
+  "music": {
+    "generator": {
+      "tool": "connector__matrix__batch_text_to_music",
+      "maxPerCall": 3,
+      "prompt": "30 seconds instrumental Chinese moral-redemption historical short; guqin plucks, xiao flute, muted low war drums, subtle stream sound; 92 BPM in 4/4; first 12 seconds tense, 12-20 urgent, 20-26 sparse introspection, last 4 luminous resolve; NO VOICE, NO LYRICS, no EDM, no trailer braams"
+    },
+    "proceduralFallback": {
+      "required": true,
+      "sampleRate": 48000,
+      "bpm": 92,
+      "scale": ["A3", "C4", "D4", "E4", "G4"],
+      "pluckDecaySec": 0.18,
+      "drumSweepHz": [82, 46],
+      "drumDurationSec": 0.22,
+      "woodNoiseLowpassHz": 6000,
+      "waterNoiseMaxDbfs": -32,
+      "energyBySegment": [[0, 12, 0.55], [12, 20, 0.9], [20, 26, 0.32], [26, 30, 0.55]],
+      "fadeOutSec": 1.2,
+      "seed": 20261025,
+      "rightsStatement": "procedurally synthesized in project"
+    }
+  },
+  "mix": {
+    "voiceLoudnorm": { "I": -16, "LRA": 7, "TP": -1.8, "passes": 2 },
+    "bgmLufs": -25,
+    "bedRmsBelowVoiceDb": 18,
+    "bedRmsBelowVoiceDbMin": 12,
+    "duckAttackMs": 120,
+    "duckReleaseMs": 120,
+    "midrangeCutHz": [200, 4000],
+    "truePeakMaxDb": -1.5,
+    "mixDownStepDb": 0.5,
+    "mixDownMaxRounds": 4,
+    "finalFormat": { "codec": "aac", "bitrate": "256k", "sampleRate": 48000, "channels": 2 }
+  },
+  "subtitle": {
+    "minChars": 4,
+    "maxChars": 12,
+    "maxCharsPerLine": 13,
+    "maxLines": 2,
+    "gapBetweenGroupsMs": 50,
+    "gapRangeMs": [20, 80],
+    "minVisibleMs": 650,
+    "encoding": "utf-8-sig",
+    "srt": "deliver/zhouchu_30s.srt"
+  }
+}

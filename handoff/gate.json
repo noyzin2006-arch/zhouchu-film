@@ -4,14 +4,19 @@
     "brief": "handoff/briefs/LOOP-001.md",
     "plan": "handoff/plans/LOOP-001.md",
     "guardedPaths": [
-      "video/",
+      "film/",
+      "scripts/",
+      "preview/",
+      "tests/",
+      "deliver/",
       "build/",
       "src/",
       "compositions/",
       "assets/",
       "fonts/",
       "out/",
-      "deliverables/"
+      "deliverables/",
+      "requirements.txt"
     ]
   }
 }
