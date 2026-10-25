@@ -2,12 +2,12 @@
 
 - 任务：LOOP-001（30 秒《周处除三害》叙事短片，禁用一切视频生成模型）
 - 网页规划顾问：网页版 ChatGPT High（思考强度 High，**聊天模式**，不是工作/agent 模式）
-- 对话 URL：<待填：https://chatgpt.com/c/<uuid>>
+- 对话 URL：https://chatgpt.com/c/6add7fe4-fb04-83e8-97d7-d6c9cc05eef2
 - 简报：handoff/briefs/LOOP-001.md
 - 简报 blob sha：8248c9b7f101fa8bef459e5b793d4baa2eb7b9ac
 - nonce：5b2ec1bd2aed922d
 - 规划案落点：handoff/plans/LOOP-001.md
-- 投递通道：A（网页**聊天模式**，思考强度 High）——<待填：实际通道>
+- 投递通道：**A**（网页**聊天模式**，思考强度 High / 模型选择器显示 `6 High`）——已于 2026-10-25 12:05 发出
 - 交接仓可见性：**public**（网页聊天模式需匿名读取 blob 链接）
 - 仓库：https://github.com/noyzin2006-arch/zhouchu-film
 
