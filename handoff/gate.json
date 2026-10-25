@@ -1,8 +1,17 @@
 {
-  "task": "",
+  "task": "LOOP-001",
   "round1": {
-    "brief": "",
-    "plan": "",
-    "guardedPaths": []
+    "brief": "handoff/briefs/LOOP-001.md",
+    "plan": "handoff/plans/LOOP-001.md",
+    "guardedPaths": [
+      "video/",
+      "build/",
+      "src/",
+      "compositions/",
+      "assets/",
+      "fonts/",
+      "out/",
+      "deliverables/"
+    ]
   }
 }
