@@ -49,6 +49,10 @@
 | 音乐生成 | ✅ 可用 | `mcode-tools connector__matrix__batch_text_to_music`，最多 5 首/次，返回 node_id |
 | 现成 BGM | ✅ 可用 | `/Users/sheng/Downloads/大国重器.mp3`（先例用过，史诗向） |
 | HyperFrames | ✅ 可用 | v0.8.104；`doctor` 全绿（Node/FFmpeg/Chrome/whisper-cpp）；Docker 未运行但本机渲染不需要 |
+| HyperFrames `render` | ✅ 实测出片 | 冒烟探针 21 帧 / 0.7s / **3.4 秒**渲染完，`h264 + 30fps`，drawelement 捕获 + **hardware GPU**（ANGLE/Metal, M5 Max）；GSAP 由 CDN 加载，渲染器网络通畅 |
+| HyperFrames `lint` | ✅ 实测 | `0 errors, 0 warnings` |
+| HyperFrames `check`/`validate` | ✅ 实测 | headless Chrome 校验通过，**无 console error**（`validate` 已 deprecated，优先用 `check`） |
+| HyperFrames `beats` | ✅ 实测 | 对 `大国重器.mp3` 检出 **990 个节拍**，输出 `beats/bgm.mp3.json`，字段 `{time, strength}`，报 `bpm 187.5 (uncertain)` → 可直接用于卡点 |
 | ffmpeg | ✅ 可用 | 8.1.1，libx264 + aac；`zoompan/drawtext/subtitles/xfade/fade/overlay/gblur/vignette/loudnorm/amix/afade` 全在 |
 | 中文字体 | ✅ 充足 | Songti SC（Light/Regular/Black）、Kaiti SC、Heiti SC、Noto Sans CJK SC（7 字重）、Hiragino Sans GB、隶变-简/行楷-简/翩翩体-简/雅痞-简；**无思源宋体/Source Han Serif** |
 | seedream 直连 | ❌ 401 | `ARK_API_KEY` / `DOUBAO_API_KEY` 均为 27 字符占位串，端点鉴权不通过 |
@@ -74,3 +78,21 @@
 ## 4. 交付包约定（先例沿用）
 
 硬字幕 MP4 + 纯净版 MP4（无硬字幕）+ SRT（UTF-8 with BOM）+ 官方旁白文案 + 首帧/封面图 + 旁白音频 + BGM + 交付说明；默认 `zip -r "<名字>_无密码.zip"`。
+
+## 5. HyperFrames 冒烟探针（2026-10-25 实测，环境能力验证，非本片实现）
+
+在 `/tmp/hf_probe/` 搭了一个与本片无关的最小合成（640×360，单个 div + 一条 GSAP 入场 tween）：
+
+```
+◇  /tmp/hf_probe/probe.mp4
+   49.4 KB · 0.7s video · rendered in 3.4s
+   drawelement capture · hardware gpu · compile 2.8s · extract 0.0s · audio 0.0s · probe 1.1s · setup 0.0s · capture 0.5s · encode (during capture) 0.5s · assemble 0.0s
+```
+
+产物校验：`codec=h264 / 640×360 / 30fps / 21 frames / duration=0.700000`。
+`lint` → 0 errors 0 warnings；`check` → 无 console error；`beats` → 990 个节拍。
+
+**推算**：30 秒 @30fps = 900 帧，按此速率约 **2–3 分钟**出片（含编译），本机完全跑得动。
+
+> 注：探针仅验证渲染器能力，未包含本片任何设计决策；本片实现一律以 `handoff/plans/LOOP-001.md` 为准。
+
